@@ -20,7 +20,6 @@ public class result extends AppCompatActivity {
         Intent intent = getIntent();
 
 
-
         int q1_a = intent.getIntExtra("q1_answer",0);
 
         int q1_1_rb_id = intent.getIntExtra("q1_1_setId",0);

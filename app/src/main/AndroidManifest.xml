@@ -34,7 +34,8 @@
             android:label="採点結果" />
         <activity android:name=".confusion" />
         <activity android:name=".test_r" />
-        <activity android:name=".result_r"></activity>
+        <activity android:name=".result_r" />
+        <activity android:name=".confusion_1"></activity>
     </application>
 
 </manifest>
