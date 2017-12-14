@@ -630,233 +630,238 @@ public class confusion_1 extends AppCompatActivity {
             kai11.setText("淡白");
             a1=5;
         }
-        if (q2_a == q1_1_rb_id) {
-            TextView kai21 = (TextView) findViewById(R.id.kai21);
-            kai21.setText("紅舌");
-            b1=1;
-        }else if (q2_a == q1_2_rb_id) {
-            TextView kai21 = (TextView) findViewById(R.id.kai21);
-            kai21.setText("紫斑舌");
-            b1=2;
-        }else if (q2_a == q1_3_rb_id) {
-            TextView kai21 = (TextView) findViewById(R.id.kai21);
-            kai21.setText("舌尖紅");
-            b1=3;
-        }else if (q2_a == q1_4_rb_id) {
+        if (q2_a == q2_rb1_id) {
             TextView kai21 = (TextView) findViewById(R.id.kai21);
             kai21.setText("淡紅");
             b1=4;
-        }else if (q2_a == q1_5_rb_id) {
+        }else if (q2_a == q2_rb2_id) {
+            TextView kai21 = (TextView) findViewById(R.id.kai21);
+            kai21.setText("舌尖紅");
+            b1=3;
+        }else if (q2_a == q2_rb3_id) {
+            TextView kai21 = (TextView) findViewById(R.id.kai21);
+            kai21.setText("紫斑舌");
+            b1=2;
+        }else if (q2_a == q2_rb4_id) {
             TextView kai21 = (TextView) findViewById(R.id.kai21);
             kai21.setText("淡白");
             b1=5;
+        }else if (q2_a == q2_rb5_id) {
+            TextView kai21 = (TextView) findViewById(R.id.kai21);
+            kai21.setText("紅舌");
+            b1=1;
         }
-        if (q3_a == q1_1_rb_id) {
-            TextView kai31 = (TextView) findViewById(R.id.kai31);
-            kai31.setText("紅舌");
-            c1=1;
-        }else if (q3_a == q1_2_rb_id) {
-            TextView kai31 = (TextView) findViewById(R.id.kai31);
-            kai31.setText("紫斑舌");
-            c1=2;
-        }else if (q3_a == q1_3_rb_id) {
-            TextView kai31 = (TextView) findViewById(R.id.kai31);
-            kai31.setText("舌尖紅");
-            c1=3;
-        }else if (q3_a == q1_4_rb_id) {
-            TextView kai31 = (TextView) findViewById(R.id.kai31);
-            kai31.setText("淡紅");
-            c1=4;
-        }else if (q3_a == q1_5_rb_id) {
+        if (q3_a == q3_rb1_id) {
             TextView kai31 = (TextView) findViewById(R.id.kai31);
             kai31.setText("淡白");
             c1=5;
-        }if (q4_a == q1_1_rb_id) {
+        }else if (q3_a == q3_rb2_id) {
+            TextView kai31 = (TextView) findViewById(R.id.kai31);
+            kai31.setText("紅舌");
+            c1=1;
+        }else if (q3_a == q3_rb3_id) {
+            TextView kai31 = (TextView) findViewById(R.id.kai31);
+            kai31.setText("淡紅");
+            c1=4;
+        }else if (q3_a == q3_rb4_id) {
+            TextView kai31 = (TextView) findViewById(R.id.kai31);
+            kai31.setText("紫斑舌");
+            c1=2;
+        }else if (q3_a == q3_rb5_id) {
+            TextView kai31 = (TextView) findViewById(R.id.kai31);
+            kai31.setText("舌尖紅");
+            c1=3;
+        }if (q4_a == q4_rb1_id) {
             TextView kai41 = (TextView) findViewById(R.id.kai41);
             kai41.setText("紅舌");
             d1=1;
-        }else if (q4_a == q1_2_rb_id) {
+        }else if (q4_a == q4_rb2_id) {
             TextView kai41 = (TextView) findViewById(R.id.kai41);
             kai41.setText("紫斑舌");
             d1=2;
-        }else if (q4_a == q1_3_rb_id) {
-            TextView kai41 = (TextView) findViewById(R.id.kai41);
-            kai41.setText("舌尖紅");
-            d1=3;
-        }else if (q4_a == q1_4_rb_id) {
+        }else if (q4_a == q4_rb3_id) {
             TextView kai41 = (TextView) findViewById(R.id.kai41);
             kai41.setText("淡紅");
             d1=4;
-        }else if (q4_a == q1_5_rb_id) {
+        }else if (q4_a == q4_rb4_id) {
+            TextView kai41 = (TextView) findViewById(R.id.kai41);
+            kai41.setText("舌尖紅");
+            d1=3;
+        }else if (q4_a == q4_rb5_id) {
             TextView kai41 = (TextView) findViewById(R.id.kai41);
             kai41.setText("淡白");
             d1=5;
         }
-        if (q5_a == q1_1_rb_id) {
-            TextView kai51 = (TextView) findViewById(R.id.kai51);
-            kai51.setText("紅舌");
-            e1=1;
-        }else if (q5_a == q1_2_rb_id) {
+        if (q5_a == q5_rb1_id) {
             TextView kai51 = (TextView) findViewById(R.id.kai51);
             kai51.setText("紫斑舌");
             e1=2;
-        }else if (q5_a == q1_3_rb_id) {
+        }else if (q5_a == q5_rb2_id) {
             TextView kai51 = (TextView) findViewById(R.id.kai51);
-            kai51.setText("舌尖紅");
+            kai51.setText("舌尖舌");
             e1=3;
-        }else if (q5_a == q1_4_rb_id) {
+        }else if (q5_a == q5_rb3_id) {
+            TextView kai51 = (TextView) findViewById(R.id.kai51);
+            kai51.setText("紅舌");
+            e1=1;
+        }else if (q5_a == q5_rb4_id) {
             TextView kai51 = (TextView) findViewById(R.id.kai51);
             kai51.setText("淡紅");
             e1=4;
-        }else if (q5_a == q1_5_rb_id) {
+        }else if (q5_a == q5_rb5_id) {
             TextView kai51 = (TextView) findViewById(R.id.kai51);
             kai51.setText("淡白");
             e1=5;
         }
-        if (q6_a == q1_1_rb_id) {
-            TextView kai61 = (TextView) findViewById(R.id.kai61);
-            kai61.setText("紅舌");
-            f1=1;
-        }else if (q6_a == q1_2_rb_id) {
-            TextView kai61 = (TextView) findViewById(R.id.kai61);
-            kai61.setText("紫斑舌");
-            f1=2;
-        }else if (q6_a == q1_3_rb_id) {
-            TextView kai61 = (TextView) findViewById(R.id.kai61);
-            kai61.setText("舌尖紅");
-            f1=3;
-        }else if (q6_a == q1_4_rb_id) {
-            TextView kai61 = (TextView) findViewById(R.id.kai61);
-            kai61.setText("淡紅");
-            f1=4;
-        }else if (q6_a == q1_5_rb_id) {
+        if (q6_a == q6_rb1_id) {
             TextView kai61 = (TextView) findViewById(R.id.kai61);
             kai61.setText("淡白");
             f1=5;
+        }else if (q6_a == q6_rb2_id) {
+            TextView kai61 = (TextView) findViewById(R.id.kai61);
+            kai61.setText("淡紅");
+            f1=4;
+        }else if (q6_a == q6_rb3_id) {
+            TextView kai61 = (TextView) findViewById(R.id.kai61);
+            kai61.setText("紅舌");
+            f1=1;
+        }else if (q6_a == q6_rb4_id) {
+            TextView kai61 = (TextView) findViewById(R.id.kai61);
+            kai61.setText("紫斑舌");
+            f1=2;
+        }else if (q6_a == q6_rb5_id) {
+            TextView kai61 = (TextView) findViewById(R.id.kai61);
+            kai61.setText("舌尖紅");
+            f1=3;
         }
-        if (q7_a == q1_1_rb_id) {
-            TextView kai71 = (TextView) findViewById(R.id.kai71);
-            kai71.setText("紅舌");
-            g1=1;
-        }else if (q7_a == q1_2_rb_id) {
-            TextView kai71 = (TextView) findViewById(R.id.kai71);
-            kai71.setText("紫斑舌");
-            g1=2;
-        }else if (q7_a == q1_3_rb_id) {
-            TextView kai71 = (TextView) findViewById(R.id.kai71);
-            kai71.setText("舌尖紅");
-            g1=3;
-        }else if (q7_a == q1_4_rb_id) {
+        if (q7_a == q7_rb1_id) {
             TextView kai71 = (TextView) findViewById(R.id.kai71);
             kai71.setText("淡紅");
             g1=4;
-        }else if (q7_a == q1_5_rb_id) {
+        }else if (q7_a == q7_rb2_id) {
+            TextView kai71 = (TextView) findViewById(R.id.kai71);
+            kai71.setText("舌尖紅");
+            g1=3;
+        }else if (q7_a == q7_rb3_id) {
             TextView kai71 = (TextView) findViewById(R.id.kai71);
             kai71.setText("淡白");
             g1=5;
+        }else if (q7_a == q7_rb4_id) {
+            TextView kai71 = (TextView) findViewById(R.id.kai71);
+            kai71.setText("紅舌");
+            g1=1;
+        }else if (q7_a == q7_rb5_id) {
+            TextView kai71 = (TextView) findViewById(R.id.kai71);
+            kai71.setText("紫斑舌");
+            g1=2;
         }
-        if (q8_a == q1_1_rb_id) {
+        if (q8_a == q8_rb1_id) {
             TextView kai81 = (TextView) findViewById(R.id.kai81);
             kai81.setText("紅舌");
             h1=1;
-        }else if (q8_a == q1_2_rb_id) {
+        }else if (q8_a == q8_rb2_id) {
             TextView kai81 = (TextView) findViewById(R.id.kai81);
             kai81.setText("紫斑舌");
             h1=2;
-        }else if (q8_a == q1_3_rb_id) {
+        }else if (q8_a == q8_rb3_id) {
             TextView kai81 = (TextView) findViewById(R.id.kai81);
             kai81.setText("舌尖紅");
             h1=3;
-        }else if (q8_a == q1_4_rb_id) {
+        }else if (q8_a == q8_rb4_id) {
             TextView kai81 = (TextView) findViewById(R.id.kai81);
             kai81.setText("淡紅");
             h1=4;
-        }else if (q8_a == q1_5_rb_id) {
+        }else if (q8_a == q8_rb5_id) {
             TextView kai81 = (TextView) findViewById(R.id.kai81);
             kai81.setText("淡白");
             h1=5;
         }
-        if (q9_a == q1_1_rb_id) {
-            TextView kai91 = (TextView) findViewById(R.id.kai91);
-            kai91.setText("紅舌");
-            i1=1;
-        }else if (q9_a == q1_2_rb_id) {
-            TextView kai91 = (TextView) findViewById(R.id.kai91);
-            kai91.setText("紫斑舌");
-            i1=2;
-        }else if (q9_a == q1_3_rb_id) {
+        if (q9_a == q9_rb1_id) {
             TextView kai91 = (TextView) findViewById(R.id.kai91);
             kai91.setText("舌尖紅");
             i1=3;
-        }else if (q9_a == q1_4_rb_id) {
+        }else if (q9_a == q9_rb2_id) {
             TextView kai91 = (TextView) findViewById(R.id.kai91);
-            kai91.setText("淡紅");
-            i1=4;
-        }else if (q9_a == q1_5_rb_id) {
+            kai91.setText("紫斑舌");
+            i1=2;
+        }else if (q9_a == q9_rb3_id) {
             TextView kai91 = (TextView) findViewById(R.id.kai91);
             kai91.setText("淡白");
             i1=5;
+        }else if (q9_a == q9_rb4_id) {
+            TextView kai91 = (TextView) findViewById(R.id.kai91);
+            kai91.setText("紅舌");
+            i1=1;
+        }else if (q9_a == q9_rb5_id) {
+            TextView kai91 = (TextView) findViewById(R.id.kai91);
+            kai91.setText("淡紅");
+            i1=4;
         }
-        if (q10_a == q1_1_rb_id) {
+        if (q10_a == q10_rb1_id) {
             TextView kai101 = (TextView) findViewById(R.id.kai101);
             kai101.setText("紅舌");
             j1=1;
-        }else if (q10_a == q1_2_rb_id) {
-            TextView kai101 = (TextView) findViewById(R.id.kai101);
-            kai101.setText("紫斑舌");
-            j1=2;
-        }else if (q10_a == q1_3_rb_id) {
-            TextView kai101 = (TextView) findViewById(R.id.kai101);
-            kai101.setText("舌尖紅");
-            j1=3;
-        }else if (q10_a == q1_4_rb_id) {
+        }else if (q10_a == q10_rb2_id) {
             TextView kai101 = (TextView) findViewById(R.id.kai101);
             kai101.setText("淡紅");
             j1=4;
-        }else if (q10_a == q1_5_rb_id) {
+        }else if (q10_a == q10_rb3_id) {
+            TextView kai101 = (TextView) findViewById(R.id.kai101);
+            kai101.setText("舌尖紅");
+            j1=3;
+        }else if (q10_a == q10_rb4_id) {
+            TextView kai101 = (TextView) findViewById(R.id.kai101);
+            kai101.setText("紫斑舌");
+            j1=2;
+        }else if (q10_a == q10_rb5_id) {
             TextView kai101 = (TextView) findViewById(R.id.kai101);
             kai101.setText("淡白");
             j1=5;
         }
         if (q11_a == q1_1_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
-            kai111.setText("紅舌");
+            kai111.setText("淡白");
+            k1=5;
         }else if (q11_a == q1_2_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
-            kai111.setText("紫斑舌");
+            kai111.setText("紅舌");
+            k1=1;
         }else if (q11_a == q1_3_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
             kai111.setText("舌尖紅");
+            k1=3;
         }else if (q11_a == q1_4_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
-            kai111.setText("淡紅");
+            kai111.setText("紫斑舌");
+            k1=2;
         }else if (q11_a == q1_5_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
-            kai111.setText("淡白");
+            kai111.setText("淡紅");
+            k1=4;
         }
         if (q12_a == q1_1_rb_id) {
             TextView kai121 = (TextView) findViewById(R.id.kai121);
-            kai121.setText("紅舌");
+            kai121.setText("舌尖紅");
         }
         if (q12_a == q1_2_rb_id) {
             TextView kai121 = (TextView) findViewById(R.id.kai121);
-            kai121.setText("紫斑舌");
+            kai121.setText("紅舌");
         }
         if (q12_a == q1_3_rb_id) {
             TextView kai121 = (TextView) findViewById(R.id.kai121);
-            kai121.setText("舌尖紅");
+            kai121.setText("紫斑舌");
         }
         if (q12_a == q1_4_rb_id) {
             TextView kai121 = (TextView) findViewById(R.id.kai121);
-            kai121.setText("淡紅");
+            kai121.setText("淡白");
         }
         if (q12_a == q1_5_rb_id) {
             TextView kai121 = (TextView) findViewById(R.id.kai121);
-            kai121.setText("淡白");
+            kai121.setText("淡紅");
         }
         if (q13_a == q1_1_rb_id) {
             TextView kai131 = (TextView) findViewById(R.id.kai131);
-            kai131.setText("紅舌");
+            kai131.setText("淡紅");
         }
         if (q13_a == q1_2_rb_id) {
             TextView kai131 = (TextView) findViewById(R.id.kai131);
@@ -864,15 +869,15 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q13_a == q1_3_rb_id) {
             TextView kai131 = (TextView) findViewById(R.id.kai131);
-            kai131.setText("舌尖紅");
+            kai131.setText("紅舌");
         }
         if (q13_a == q1_4_rb_id) {
             TextView kai131 = (TextView) findViewById(R.id.kai131);
-            kai131.setText("淡紅");
+            kai131.setText("淡白");
         }
         if (q13_a == q1_5_rb_id) {
             TextView kai131 = (TextView) findViewById(R.id.kai131);
-            kai131.setText("淡白");
+            kai131.setText("舌尖紅");
         }
         if (q14_a == q1_1_rb_id) {
             TextView kai141 = (TextView) findViewById(R.id.kai141);
@@ -880,43 +885,43 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q14_a == q1_2_rb_id) {
             TextView kai141 = (TextView) findViewById(R.id.kai141);
-            kai141.setText("紫斑舌");
+            kai141.setText("淡白");
         }
         if (q14_a == q1_3_rb_id) {
             TextView kai141 = (TextView) findViewById(R.id.kai141);
-            kai141.setText("舌尖紅");
+            kai141.setText("紫斑舌");
         }
         if (q14_a == q1_4_rb_id) {
             TextView kai141 = (TextView) findViewById(R.id.kai141);
-            kai141.setText("淡紅");
+            kai141.setText("舌尖紅");
         }
         if (q14_a == q1_5_rb_id) {
             TextView kai141 = (TextView) findViewById(R.id.kai141);
-            kai141.setText("淡白");
+            kai141.setText("淡紅");
         }
         if (q15_a == q1_1_rb_id) {
             TextView kai151 = (TextView) findViewById(R.id.kai151);
-            kai151.setText("紅舌");
+            kai151.setText("舌尖紅");
         }
         if (q15_a == q1_2_rb_id) {
             TextView kai151 = (TextView) findViewById(R.id.kai151);
-            kai151.setText("紫斑舌");
+            kai151.setText("紅舌");
         }
         if (q15_a == q1_3_rb_id) {
             TextView kai151 = (TextView) findViewById(R.id.kai151);
-            kai151.setText("舌尖紅");
+            kai151.setText("淡白");
         }
         if (q15_a == q1_4_rb_id) {
             TextView kai151 = (TextView) findViewById(R.id.kai151);
-            kai151.setText("淡紅");
+            kai151.setText("紫斑舌");
         }
         if (q15_a == q1_5_rb_id) {
             TextView kai151 = (TextView) findViewById(R.id.kai151);
-            kai151.setText("淡白");
+            kai151.setText("淡紅");
         }
         if (q16_a == q1_1_rb_id) {
             TextView kai161 = (TextView) findViewById(R.id.kai161);
-            kai161.setText("紅舌");
+            kai161.setText("舌尖紅");
         }
         if (q16_a == q1_2_rb_id) {
             TextView kai161 = (TextView) findViewById(R.id.kai161);
@@ -924,23 +929,23 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q16_a == q1_3_rb_id) {
             TextView kai161 = (TextView) findViewById(R.id.kai161);
-            kai161.setText("舌尖紅");
+            kai161.setText("淡紅");
         }
         if (q16_a == q1_4_rb_id) {
             TextView kai161 = (TextView) findViewById(R.id.kai161);
-            kai161.setText("淡紅");
+            kai161.setText("淡白");
         }
         if (q16_a == q1_5_rb_id) {
             TextView kai161 = (TextView) findViewById(R.id.kai161);
-            kai161.setText("淡白");
+            kai161.setText("紅舌");
         }
         if (q17_a == q1_1_rb_id) {
             TextView kai171 = (TextView) findViewById(R.id.kai171);
-            kai171.setText("紅舌");
+            kai171.setText("淡紅");
         }
         if (q17_a == q1_2_rb_id) {
             TextView kai171 = (TextView) findViewById(R.id.kai171);
-            kai171.setText("紫斑舌");
+            kai171.setText("紅舌");
         }
         if (q17_a == q1_3_rb_id) {
             TextView kai171 = (TextView) findViewById(R.id.kai171);
@@ -948,27 +953,27 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q17_a == q1_4_rb_id) {
             TextView kai171 = (TextView) findViewById(R.id.kai171);
-            kai171.setText("淡紅");
+            kai171.setText("淡白");
         }
         if (q17_a == q1_5_rb_id) {
             TextView kai171 = (TextView) findViewById(R.id.kai171);
-            kai171.setText("淡白");
+            kai171.setText("紫斑舌");
         }
         if (q18_a == q1_1_rb_id) {
             TextView kai181 = (TextView) findViewById(R.id.kai181);
-            kai181.setText("紅舌");
+            kai181.setText("淡紅");
         }
         if (q18_a == q1_2_rb_id) {
             TextView kai181 = (TextView) findViewById(R.id.kai181);
-            kai181.setText("紫斑舌");
+            kai181.setText("舌尖紅");
         }
         if (q18_a == q1_3_rb_id) {
             TextView kai181 = (TextView) findViewById(R.id.kai181);
-            kai181.setText("舌尖紅");
+            kai181.setText("紫斑舌");
         }
         if (q18_a == q1_4_rb_id) {
             TextView kai181 = (TextView) findViewById(R.id.kai181);
-            kai181.setText("淡紅");
+            kai181.setText("紅舌");
         }
         if (q18_a == q1_5_rb_id) {
             TextView kai181 = (TextView) findViewById(R.id.kai181);
@@ -976,15 +981,15 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q19_a == q1_1_rb_id) {
             TextView kai191 = (TextView) findViewById(R.id.kai191);
-            kai191.setText("紅舌");
+            kai191.setText("紫斑舌");
         }
         if (q19_a == q1_2_rb_id) {
             TextView kai191 = (TextView) findViewById(R.id.kai191);
-            kai191.setText("紫斑舌");
+            kai191.setText("紅舌");
         }
         if (q19_a == q1_3_rb_id) {
             TextView kai191 = (TextView) findViewById(R.id.kai191);
-            kai191.setText("舌尖紅");
+            kai191.setText("淡白");
         }
         if (q19_a == q1_4_rb_id) {
             TextView kai191 = (TextView) findViewById(R.id.kai191);
@@ -992,27 +997,27 @@ public class confusion_1 extends AppCompatActivity {
         }
         if (q19_a == q1_5_rb_id) {
             TextView kai191 = (TextView) findViewById(R.id.kai191);
-            kai191.setText("淡白");
+            kai191.setText("舌尖紅");
         }
         if (q20_a == q1_1_rb_id) {
             TextView kai201 = (TextView) findViewById(R.id.kai201);
-            kai201.setText("紅舌");
+            kai201.setText("淡白");
         }
         if (q20_a == q1_2_rb_id) {
             TextView kai201 = (TextView) findViewById(R.id.kai201);
-            kai201.setText("紫斑舌");
+            kai201.setText("紅舌");
         }
         if (q20_a == q1_3_rb_id) {
             TextView kai201 = (TextView) findViewById(R.id.kai201);
-            kai201.setText("舌尖紅");
+            kai201.setText("淡紅");
         }
         if (q20_a == q1_4_rb_id) {
             TextView kai201 = (TextView) findViewById(R.id.kai201);
-            kai201.setText("淡紅");
+            kai201.setText("舌尖紅");
         }
         if (q20_a == q1_5_rb_id) {
             TextView kai201 = (TextView) findViewById(R.id.kai201);
-            kai201.setText("淡白");
+            kai201.setText("紫斑舌");
         }
 
 
@@ -1267,6 +1272,7 @@ public class confusion_1 extends AppCompatActivity {
         if(q11_a==q1_1_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);
             kai111.setText("紅舌");
+
         }
         if(q11_a==q1_2_rb_id) {
             TextView kai111 = (TextView) findViewById(R.id.kai111);

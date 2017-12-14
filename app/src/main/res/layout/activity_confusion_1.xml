@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -44,28 +45,24 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/button"
                                 android:layout_width="116dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="問題番号" />
 
                             <Button
-                                android:id="@+id/button2"
                                 android:layout_width="130dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="正解" />
 
                             <Button
-                                android:id="@+id/button3"
                                 android:layout_width="169dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="テスト問題１回答" />
 
                             <Button
-                                android:id="@+id/button4"
                                 android:layout_width="299dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -90,14 +87,12 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/bango"
                                 android:layout_width="116dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="1" />
 
                             <Button
-                                android:id="@+id/sei1"
                                 android:layout_width="130dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -107,13 +102,15 @@
                                 android:id="@+id/kai11"
                                 android:layout_width="169dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1" />
+                                android:layout_weight="1"
+                                android:text="未解答"/>
 
                             <Button
                                 android:id="@+id/kai12"
                                 android:layout_width="299dp"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1" />
+                                android:layout_weight="1"
+                                android:text="未解答"/>
                         </LinearLayout>
 
                         <LinearLayout
@@ -126,7 +123,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -153,28 +150,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -193,14 +186,12 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="２" />
 
                                 <Button
-                                    android:id="@+id/sei2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -211,14 +202,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai22"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -232,7 +223,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -259,28 +250,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -299,14 +286,14 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
+
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="３" />
 
                                 <Button
-                                    android:id="@+id/sei3"
+
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -317,14 +304,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai32"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -338,7 +325,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -365,28 +352,28 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
+
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
+
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
+
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
+
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -405,14 +392,14 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
+
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="４" />
 
                                 <Button
-                                    android:id="@+id/sei4"
+
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -423,14 +410,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai42"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -444,7 +431,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -471,28 +458,28 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
+
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
+
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
+
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
+
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -511,14 +498,14 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
+
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="５" />
 
                                 <Button
-                                    android:id="@+id/sei5"
+
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -529,14 +516,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai52"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -550,7 +537,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
 
                         </LinearLayout>
 
@@ -578,28 +565,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -618,14 +601,12 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="６" />
 
                                 <Button
-                                    android:id="@+id/sei6"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -636,14 +617,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai62"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -657,7 +638,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text=""/>
                         </LinearLayout>
 
                         <LinearLayout
@@ -684,28 +665,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -724,7 +701,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -742,14 +718,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai72"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -763,7 +739,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -790,28 +766,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -830,7 +802,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -848,14 +819,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai82"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -869,7 +840,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -896,28 +867,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -936,7 +903,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -954,14 +920,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai92"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -975,7 +941,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1002,28 +968,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1042,7 +1004,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1060,14 +1021,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai102"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1081,7 +1042,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1108,28 +1069,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1148,7 +1105,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1166,14 +1122,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai112"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1187,7 +1143,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1214,28 +1170,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1254,7 +1206,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1272,14 +1223,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai122"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1293,7 +1244,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1320,28 +1271,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1360,7 +1307,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1378,14 +1324,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai132"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1399,7 +1345,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1426,28 +1372,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1466,7 +1408,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1484,14 +1425,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai142"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1505,7 +1446,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1532,28 +1473,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1572,7 +1509,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1590,14 +1526,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai152"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1611,7 +1547,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1638,28 +1574,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1678,7 +1610,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1696,14 +1627,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai162"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1717,7 +1648,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1744,28 +1675,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1784,7 +1711,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1802,14 +1728,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai172"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1823,7 +1749,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1850,28 +1776,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1890,7 +1812,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1908,14 +1829,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai182"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -1929,7 +1850,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -1956,28 +1877,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -1996,7 +1913,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -2014,14 +1930,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai192"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -2035,7 +1951,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -2062,28 +1978,24 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="問題番号" />
 
                                 <Button
-                                    android:id="@+id/button2"
                                     android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="正解" />
 
                                 <Button
-                                    android:id="@+id/button3"
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="テスト問題１回答" />
 
                                 <Button
-                                    android:id="@+id/button4"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -2102,7 +2014,6 @@
                                 android:orientation="horizontal">
 
                                 <Button
-                                    android:id="@+id/button"
                                     android:layout_width="116dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -2120,14 +2031,14 @@
                                     android:layout_width="169dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答" />
+                                    android:text="未解答" />
 
                                 <Button
                                     android:id="@+id/kai202"
                                     android:layout_width="299dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="テスト問題１回答(2回目)" />
+                                    android:text="未解答" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -2141,7 +2052,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="" />
                         </LinearLayout>
 
                         <LinearLayout
