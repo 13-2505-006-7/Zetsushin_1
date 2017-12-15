@@ -307,8 +307,150 @@ public class test extends AppCompatActivity {
 
 
 
+
+        Intent intent_test = getIntent();
         Intent intent = new Intent(this, test_r.class);
 
+        intent.putExtra("q1_answer",intent_test.getIntExtra("q1_answer",0));
+        intent.putExtra("q1_1_setId",intent_test.getIntExtra("q1_1_setId",0));
+        intent.putExtra("q1_2_setId",intent_test.getIntExtra("q1_2_setId",0));
+        intent.putExtra("q1_3_setId",intent_test.getIntExtra("q1_3_setId",0));
+        intent.putExtra("q1_4_setId",intent_test.getIntExtra("q1_4_setId",0));
+        intent.putExtra("q1_5_setId",intent_test.getIntExtra("q1_5_setId",0));
+
+        intent.putExtra("q2_answer",intent_test.getIntExtra("q2_answer",0));
+        intent.putExtra("q2_rb1_setId",intent_test.getIntExtra("q2_rb1_setId",0));
+        intent.putExtra("q2_rb2_setId",intent_test.getIntExtra("q2_rb2_setId",0));
+        intent.putExtra("q2_rb3_setId",intent_test.getIntExtra("q2_rb3_setId",0));
+        intent.putExtra("q2_rb4_setId",intent_test.getIntExtra("q2_rb4_setId",0));
+        intent.putExtra("q2_rb5_setId",intent_test.getIntExtra("q2_rb5_setId",0));
+
+        intent.putExtra("q3_answer",intent_test.getIntExtra("q3_answer",0));
+        intent.putExtra("q3_rb1_setId",intent_test.getIntExtra("q3_rb1_setId",0));
+        intent.putExtra("q3_rb2_setId",intent_test.getIntExtra("q3_rb2_setId",0));
+        intent.putExtra("q3_rb3_setId",intent_test.getIntExtra("q3_rb3_setId",0));
+        intent.putExtra("q3_rb4_setId",intent_test.getIntExtra("q3_rb4_setId",0));
+        intent.putExtra("q3_rb5_setId",intent_test.getIntExtra("q3_rb5_setId",0));
+
+        intent.putExtra("q4_answer",intent_test.getIntExtra("q4_answer",0));
+        intent.putExtra("q4_rb1_setId",intent_test.getIntExtra("q4_rb1_setId",0));
+        intent.putExtra("q4_rb2_setId",intent_test.getIntExtra("q4_rb2_setId",0));
+        intent.putExtra("q4_rb3_setId",intent_test.getIntExtra("q4_rb3_setId",0));
+        intent.putExtra("q4_rb4_setId",intent_test.getIntExtra("q4_rb4_setId",0));
+        intent.putExtra("q4_rb5_setId",intent_test.getIntExtra("q4_rb5_setId",0));
+
+        intent.putExtra("q5_answer",intent_test.getIntExtra("q5_answer",0));
+        intent.putExtra("q5_rb1_setId",intent_test.getIntExtra("q5_rb1_setId",0));
+        intent.putExtra("q5_rb2_setId",intent_test.getIntExtra("q5_rb2_setId",0));
+        intent.putExtra("q5_rb3_setId",intent_test.getIntExtra("q5_rb3_setId",0));
+        intent.putExtra("q5_rb4_setId",intent_test.getIntExtra("q5_rb4_setId",0));
+        intent.putExtra("q5_rb5_setId",intent_test.getIntExtra("q5_rb5_setId",0));
+
+        intent.putExtra("q6_answer",intent_test.getIntExtra("q6_answer",0));
+        intent.putExtra("q6_rb1_setId",intent_test.getIntExtra("q6_rb1_setId",0));
+        intent.putExtra("q6_rb2_setId",intent_test.getIntExtra("q6_rb2_setId",0));
+        intent.putExtra("q6_rb3_setId",intent_test.getIntExtra("q6_rb3_setId",0));
+        intent.putExtra("q6_rb4_setId",intent_test.getIntExtra("q6_rb4_setId",0));
+        intent.putExtra("q6_rb5_setId",intent_test.getIntExtra("q6_rb5_setId",0));
+
+        intent.putExtra("q7_answer",intent_test.getIntExtra("q7_answer",0));
+        intent.putExtra("q7_rb1_setId",intent_test.getIntExtra("q7_rb1_setId",0));
+        intent.putExtra("q7_rb2_setId",intent_test.getIntExtra("q7_rb2_setId",0));
+        intent.putExtra("q7_rb3_setId",intent_test.getIntExtra("q7_rb3_setId",0));
+        intent.putExtra("q7_rb4_setId",intent_test.getIntExtra("q7_rb4_setId",0));
+        intent.putExtra("q7_rb5_setId",intent_test.getIntExtra("q7_rb5_setId",0));
+
+
+        intent.putExtra("q8_answer",intent_test.getIntExtra("q8_answer",0));
+        intent.putExtra("q8_rb1_setId",intent_test.getIntExtra("q8_rb1_setId",0));
+        intent.putExtra("q8_rb2_setId",intent_test.getIntExtra("q8_rb2_setId",0));
+        intent.putExtra("q8_rb3_setId",intent_test.getIntExtra("q8_rb3_setId",0));
+        intent.putExtra("q8_rb4_setId",intent_test.getIntExtra("q8_rb4_setId",0));
+        intent.putExtra("q8_rb5_setId",intent_test.getIntExtra("q8_rb5_setId",0));
+
+        intent.putExtra("q9_answer",intent_test.getIntExtra("q9_answer",0));
+        intent.putExtra("q9_rb1_setId",intent_test.getIntExtra("q9_rb1_setId",0));
+        intent.putExtra("q9_rb2_setId",intent_test.getIntExtra("q9_rb2_setId",0));
+        intent.putExtra("q9_rb3_setId",intent_test.getIntExtra("q9_rb3_setId",0));
+        intent.putExtra("q9_rb4_setId",intent_test.getIntExtra("q9_rb4_setId",0));
+        intent.putExtra("q9_rb5_setId",intent_test.getIntExtra("q9_rb5_setId",0));
+
+        intent.putExtra("q10_answer",intent_test.getIntExtra("q10_answer",0));
+        intent.putExtra("q10_rb1_setId",intent_test.getIntExtra("q10_rb1_setId",0));
+        intent.putExtra("q10_rb2_setId",intent_test.getIntExtra("q10_rb2_setId",0));
+        intent.putExtra("q10_rb3_setId",intent_test.getIntExtra("q10_rb3_setId",0));
+        intent.putExtra("q10_rb4_setId",intent_test.getIntExtra("q10_rb4setId",0));
+        intent.putExtra("q10_rb5_setId",intent_test.getIntExtra("q10_rb5setId",0));
+
+        intent.putExtra("q11_answer",intent_test.getIntExtra("q11_answer",0));
+        intent.putExtra("q11_rb1_setId",intent_test.getIntExtra("q11_rb1_setId",0));
+        intent.putExtra("q11_rb2_setId",intent_test.getIntExtra("q11_rb2_setId",0));
+        intent.putExtra("q11_rb3_setId",intent_test.getIntExtra("q11_rb3_setId",0));
+        intent.putExtra("q11_rb4_setId",intent_test.getIntExtra("q11_rb4_setId",0));
+        intent.putExtra("q11_rb5_setId",intent_test.getIntExtra("q11_rb5_setId",0));
+
+        intent.putExtra("q12_answer",intent_test.getIntExtra("q12_answer",0));
+        intent.putExtra("q12_rb1_setId",intent_test.getIntExtra("q12_rb1_setId",0));
+        intent.putExtra("q12_rb2_setId",intent_test.getIntExtra("q12_rb2_setId",0));
+        intent.putExtra("q12_rb3_setId",intent_test.getIntExtra("q12_rb3_setId",0));
+        intent.putExtra("q12_rb4_setId",intent_test.getIntExtra("q12_rb4_setId",0));
+        intent.putExtra("q12_rb5_setId",intent_test.getIntExtra("q12_rb5_setId",0));
+
+        intent.putExtra("q13_answer",intent_test.getIntExtra("q13_answer",0));
+        intent.putExtra("q13_rb1_setId",intent_test.getIntExtra("q13_rb1_setId",0));
+        intent.putExtra("q13_rb2_setId",intent_test.getIntExtra("q13_rb2_setId",0));
+        intent.putExtra("q13_rb3_setId",intent_test.getIntExtra("q13_rb3_setId",0));
+        intent.putExtra("q13_rb4_setId",intent_test.getIntExtra("q13_rb4_setId",0));
+        intent.putExtra("q13_rb5_setId",intent_test.getIntExtra("q13_rb5_setId",0));
+
+        intent.putExtra("q14_answer",intent_test.getIntExtra("q14_answer",0));
+        intent.putExtra("q14_rb1_setId",intent_test.getIntExtra("q14_rb1_setId",0));
+        intent.putExtra("q14_rb2_setId",intent_test.getIntExtra("q14_rb2_setId",0));
+        intent.putExtra("q14_rb3_setId",intent_test.getIntExtra("q14_rb3_setId",0));
+        intent.putExtra("q14_rb4_setId",intent_test.getIntExtra("q14_rb4_setId",0));
+        intent.putExtra("q14_rb5_setId",intent_test.getIntExtra("q14_rb5_setId",0));
+
+        intent.putExtra("q15_answer",intent_test.getIntExtra("q15_answer",0));
+        intent.putExtra("q15_rb1_setId",intent_test.getIntExtra("q15_rb1_setId",0));
+        intent.putExtra("q15_rb2_setId",intent_test.getIntExtra("q15_rb2_setId",0));
+        intent.putExtra("q15_rb3_setId",intent_test.getIntExtra("q15_rb3_setId",0));
+        intent.putExtra("q15_rb4_setId",intent_test.getIntExtra("q15_rb4_setId",0));
+        intent.putExtra("q15_rb5_setId",intent_test.getIntExtra("q15_rb5_setId",0));
+
+        intent.putExtra("q16_answer",intent_test.getIntExtra("q16_answer",0));
+        intent.putExtra("q16_rb1_setId",intent_test.getIntExtra("q16_rb1_setId",0));
+        intent.putExtra("q16_rb2_setId",intent_test.getIntExtra("q16_rb2_setId",0));
+        intent.putExtra("q16_rb3_setId",intent_test.getIntExtra("q16_rb3_setId",0));
+        intent.putExtra("q16_rb4_setId",intent_test.getIntExtra("q16_rb4_setId",0));
+        intent.putExtra("q16_rb5_setId",intent_test.getIntExtra("q16_rb5_setId",0));
+
+        intent.putExtra("q17_answer",intent_test.getIntExtra("q17_answer",0));
+        intent.putExtra("q17_rb1_setId",intent_test.getIntExtra("q17_rb1_setId",0));
+        intent.putExtra("q17_rb2_setId",intent_test.getIntExtra("q17_rb2_setId",0));
+        intent.putExtra("q17_rb3_setId",intent_test.getIntExtra("q17_rb3_setId",0));
+        intent.putExtra("q17_rb4_setId",intent_test.getIntExtra("q17_rb4_setId",0));
+        intent.putExtra("q17_rb5_setId",intent_test.getIntExtra("q17_rb5_setId",0));
+
+        intent.putExtra("q18_answer",intent_test.getIntExtra("q18_answer",0));
+        intent.putExtra("q18_rb1_setId",intent_test.getIntExtra("q18_rb1_setId",0));
+        intent.putExtra("q18_rb2_setId",intent_test.getIntExtra("q18_rb2_setId",0));
+        intent.putExtra("q18_rb3_setId",intent_test.getIntExtra("q18_rb3_setId",0));
+        intent.putExtra("q18_rb4_setId",intent_test.getIntExtra("q18_rb4_setId",0));
+        intent.putExtra("q18_rb5_setId",intent_test.getIntExtra("q18_rb5_setId",0));
+
+        intent.putExtra("q19_answer",intent_test.getIntExtra("q19_answer",0));
+        intent.putExtra("q19_rb1_setId",intent_test.getIntExtra("q19_rb1_setId",0));
+        intent.putExtra("q19_rb2_setId",intent_test.getIntExtra("q19_rb2_setId",0));
+        intent.putExtra("q19_rb3_setId",intent_test.getIntExtra("q19_rb3_setId",0));
+        intent.putExtra("q19_rb4_setId",intent_test.getIntExtra("q19_rb4_setId",0));
+        intent.putExtra("q19_rb5_setId",intent_test.getIntExtra("q19_rb5_setId",0));
+
+        intent.putExtra("q20_answer",intent_test.getIntExtra("q20_answer",0));
+        intent.putExtra("q20_rb1_setId",intent_test.getIntExtra("q20_rb1_setId",0));
+        intent.putExtra("q20_rb2_setId",intent_test.getIntExtra("q20_rb2_setId",0));
+        intent.putExtra("q20_rb3_setId",intent_test.getIntExtra("q20_rb3_setId",0));
+        intent.putExtra("q20_rb4_setId",intent_test.getIntExtra("q20_rb4_setId",0));
+        intent.putExtra("q20_rb5_setId",intent_test.getIntExtra("q20_rb5_setId",0));
         intent.putExtra("q1_answer",q1_checkedId);
         intent.putExtra("q1_1_setId",q1_1_rb_id);
         intent.putExtra("q1_2_setId",q1_2_rb_id);

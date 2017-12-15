@@ -38,146 +38,7 @@ public class confusion_1 extends AppCompatActivity {
         Intent intent = getIntent();
 
 
-        intent.putExtra("q1_answer", intent_test.getIntExtra("q1_answer", 0));
-        intent.putExtra("q1_1_setId", intent_test.getIntExtra("q1_1_setId", 0));
-        intent.putExtra("q1_2_setId", intent_test.getIntExtra("q1_2_setId", 0));
-        intent.putExtra("q1_3_setId", intent_test.getIntExtra("q1_3_setId", 0));
-        intent.putExtra("q1_4_setId", intent_test.getIntExtra("q1_4_setId", 0));
-        intent.putExtra("q1_5_setId", intent_test.getIntExtra("q1_5_setId", 0));
 
-        intent.putExtra("q2_answer", intent_test.getIntExtra("q2_answer", 0));
-        intent.putExtra("q2_rb1_setId", intent_test.getIntExtra("q2_rb1_setId", 0));
-        intent.putExtra("q2_rb2_setId", intent_test.getIntExtra("q2_rb2_setId", 0));
-        intent.putExtra("q2_rb3_setId", intent_test.getIntExtra("q2_rb3_setId", 0));
-        intent.putExtra("q2_rb4_setId", intent_test.getIntExtra("q2_rb4_setId", 0));
-        intent.putExtra("q2_rb5_setId", intent_test.getIntExtra("q2_rb5_setId", 0));
-
-        intent.putExtra("q3_answer", intent_test.getIntExtra("q3_answer", 0));
-        intent.putExtra("q3_rb1_setId", intent_test.getIntExtra("q3_rb1_setId", 0));
-        intent.putExtra("q3_rb2_setId", intent_test.getIntExtra("q3_rb2_setId", 0));
-        intent.putExtra("q3_rb3_setId", intent_test.getIntExtra("q3_rb3_setId", 0));
-        intent.putExtra("q3_rb4_setId", intent_test.getIntExtra("q3_rb4_setId", 0));
-        intent.putExtra("q3_rb5_setId", intent_test.getIntExtra("q3_rb5_setId", 0));
-
-        intent.putExtra("q4_answer", intent_test.getIntExtra("q4_answer", 0));
-        intent.putExtra("q4_rb1_setId", intent_test.getIntExtra("q4_rb1_setId", 0));
-        intent.putExtra("q4_rb2_setId", intent_test.getIntExtra("q4_rb2_setId", 0));
-        intent.putExtra("q4_rb3_setId", intent_test.getIntExtra("q4_rb3_setId", 0));
-        intent.putExtra("q4_rb4_setId", intent_test.getIntExtra("q4_rb4_setId", 0));
-        intent.putExtra("q4_rb5_setId", intent_test.getIntExtra("q4_rb5_setId", 0));
-
-        intent.putExtra("q5_answer", intent_test.getIntExtra("q5_answer", 0));
-        intent.putExtra("q5_rb1_setId", intent_test.getIntExtra("q5_rb1_setId", 0));
-        intent.putExtra("q5_rb2_setId", intent_test.getIntExtra("q5_rb2_setId", 0));
-        intent.putExtra("q5_rb3_setId", intent_test.getIntExtra("q5_rb3_setId", 0));
-        intent.putExtra("q5_rb4_setId", intent_test.getIntExtra("q5_rb4_setId", 0));
-        intent.putExtra("q5_rb5_setId", intent_test.getIntExtra("q5_rb5_setId", 0));
-
-        intent.putExtra("q6_answer", intent_test.getIntExtra("q6_answer", 0));
-        intent.putExtra("q6_rb1_setId", intent_test.getIntExtra("q6_rb1_setId", 0));
-        intent.putExtra("q6_rb2_setId", intent_test.getIntExtra("q6_rb2_setId", 0));
-        intent.putExtra("q6_rb3_setId", intent_test.getIntExtra("q6_rb3_setId", 0));
-        intent.putExtra("q6_rb4_setId", intent_test.getIntExtra("q6_rb4_setId", 0));
-        intent.putExtra("q6_rb5_setId", intent_test.getIntExtra("q6_rb5_setId", 0));
-
-        intent.putExtra("q7_answer", intent_test.getIntExtra("q7_answer", 0));
-        intent.putExtra("q7_rb1_setId", intent_test.getIntExtra("q7_rb1_setId", 0));
-        intent.putExtra("q7_rb2_setId", intent_test.getIntExtra("q7_rb2_setId", 0));
-        intent.putExtra("q7_rb3_setId", intent_test.getIntExtra("q7_rb3_setId", 0));
-        intent.putExtra("q7_rb4_setId", intent_test.getIntExtra("q7_rb4_setId", 0));
-        intent.putExtra("q7_rb5_setId", intent_test.getIntExtra("q7_rb5_setId", 0));
-
-
-        intent.putExtra("q8_answer", intent_test.getIntExtra("q8_answer", 0));
-        intent.putExtra("q8_rb1_setId", intent_test.getIntExtra("q8_rb1_setId", 0));
-        intent.putExtra("q8_rb2_setId", intent_test.getIntExtra("q8_rb2_setId", 0));
-        intent.putExtra("q8_rb3_setId", intent_test.getIntExtra("q8_rb3_setId", 0));
-        intent.putExtra("q8_rb4_setId", intent_test.getIntExtra("q8_rb4_setId", 0));
-        intent.putExtra("q8_rb5_setId", intent_test.getIntExtra("q8_rb5_setId", 0));
-
-        intent.putExtra("q9_answer", intent_test.getIntExtra("q9_answer", 0));
-        intent.putExtra("q9_rb1_setId", intent_test.getIntExtra("q9_rb1_setId", 0));
-        intent.putExtra("q9_rb2_setId", intent_test.getIntExtra("q9_rb2_setId", 0));
-        intent.putExtra("q9_rb3_setId", intent_test.getIntExtra("q9_rb3_setId", 0));
-        intent.putExtra("q9_rb4_setId", intent_test.getIntExtra("q9_rb4_setId", 0));
-        intent.putExtra("q9_rb5_setId", intent_test.getIntExtra("q9_rb5_setId", 0));
-
-        intent.putExtra("q10_answer", intent_test.getIntExtra("q10_answer", 0));
-        intent.putExtra("q10_rb1_setId", intent_test.getIntExtra("q10_rb1_setId", 0));
-        intent.putExtra("q10_rb2_setId", intent_test.getIntExtra("q10_rb2_setId", 0));
-        intent.putExtra("q10_rb3_setId", intent_test.getIntExtra("q10_rb3_setId", 0));
-        intent.putExtra("q10_rb4_setId", intent_test.getIntExtra("q10_rb4setId", 0));
-        intent.putExtra("q10_rb5_setId", intent_test.getIntExtra("q10_rb5setId", 0));
-
-        intent.putExtra("q11_answer", intent_test.getIntExtra("q11_answer", 0));
-        intent.putExtra("q11_rb1_setId", intent_test.getIntExtra("q11_rb1_setId", 0));
-        intent.putExtra("q11_rb2_setId", intent_test.getIntExtra("q11_rb2_setId", 0));
-        intent.putExtra("q11_rb3_setId", intent_test.getIntExtra("q11_rb3_setId", 0));
-        intent.putExtra("q11_rb4_setId", intent_test.getIntExtra("q11_rb4_setId", 0));
-        intent.putExtra("q11_rb5_setId", intent_test.getIntExtra("q11_rb5_setId", 0));
-
-        intent.putExtra("q12_answer", intent_test.getIntExtra("q12_answer", 0));
-        intent.putExtra("q12_rb1_setId", intent_test.getIntExtra("q12_rb1_setId", 0));
-        intent.putExtra("q12_rb2_setId", intent_test.getIntExtra("q12_rb2_setId", 0));
-        intent.putExtra("q12_rb3_setId", intent_test.getIntExtra("q12_rb3_setId", 0));
-        intent.putExtra("q12_rb4_setId", intent_test.getIntExtra("q12_rb4_setId", 0));
-        intent.putExtra("q12_rb5_setId", intent_test.getIntExtra("q12_rb5_setId", 0));
-
-        intent.putExtra("q13_answer", intent_test.getIntExtra("q13_answer", 0));
-        intent.putExtra("q13_rb1_setId", intent_test.getIntExtra("q13_rb1_setId", 0));
-        intent.putExtra("q13_rb2_setId", intent_test.getIntExtra("q13_rb2_setId", 0));
-        intent.putExtra("q13_rb3_setId", intent_test.getIntExtra("q13_rb3_setId", 0));
-        intent.putExtra("q13_rb4_setId", intent_test.getIntExtra("q13_rb4_setId", 0));
-        intent.putExtra("q13_rb5_setId", intent_test.getIntExtra("q13_rb5_setId", 0));
-
-        intent.putExtra("q14_answer", intent_test.getIntExtra("q14_answer", 0));
-        intent.putExtra("q14_rb1_setId", intent_test.getIntExtra("q14_rb1_setId", 0));
-        intent.putExtra("q14_rb2_setId", intent_test.getIntExtra("q14_rb2_setId", 0));
-        intent.putExtra("q14_rb3_setId", intent_test.getIntExtra("q14_rb3_setId", 0));
-        intent.putExtra("q14_rb4_setId", intent_test.getIntExtra("q14_rb4_setId", 0));
-        intent.putExtra("q14_rb5_setId", intent_test.getIntExtra("q14_rb5_setId", 0));
-
-        intent.putExtra("q15_answer", intent_test.getIntExtra("q15_answer", 0));
-        intent.putExtra("q15_rb1_setId", intent_test.getIntExtra("q15_rb1_setId", 0));
-        intent.putExtra("q15_rb2_setId", intent_test.getIntExtra("q15_rb2_setId", 0));
-        intent.putExtra("q15_rb3_setId", intent_test.getIntExtra("q15_rb3_setId", 0));
-        intent.putExtra("q15_rb4_setId", intent_test.getIntExtra("q15_rb4_setId", 0));
-        intent.putExtra("q15_rb5_setId", intent_test.getIntExtra("q15_rb5_setId", 0));
-
-        intent.putExtra("q16_answer", intent_test.getIntExtra("q16_answer", 0));
-        intent.putExtra("q16_rb1_setId", intent_test.getIntExtra("q16_rb1_setId", 0));
-        intent.putExtra("q16_rb2_setId", intent_test.getIntExtra("q16_rb2_setId", 0));
-        intent.putExtra("q16_rb3_setId", intent_test.getIntExtra("q16_rb3_setId", 0));
-        intent.putExtra("q16_rb4_setId", intent_test.getIntExtra("q16_rb4_setId", 0));
-        intent.putExtra("q16_rb5_setId", intent_test.getIntExtra("q16_rb5_setId", 0));
-
-        intent.putExtra("q17_answer", intent_test.getIntExtra("q17_answer", 0));
-        intent.putExtra("q17_rb1_setId", intent_test.getIntExtra("q17_rb1_setId", 0));
-        intent.putExtra("q17_rb2_setId", intent_test.getIntExtra("q17_rb2_setId", 0));
-        intent.putExtra("q17_rb3_setId", intent_test.getIntExtra("q17_rb3_setId", 0));
-        intent.putExtra("q17_rb4_setId", intent_test.getIntExtra("q17_rb4_setId", 0));
-        intent.putExtra("q17_rb5_setId", intent_test.getIntExtra("q17_rb5_setId", 0));
-
-        intent.putExtra("q18_answer", intent_test.getIntExtra("q18_answer", 0));
-        intent.putExtra("q18_rb1_setId", intent_test.getIntExtra("q18_rb1_setId", 0));
-        intent.putExtra("q18_rb2_setId", intent_test.getIntExtra("q18_rb2_setId", 0));
-        intent.putExtra("q18_rb3_setId", intent_test.getIntExtra("q18_rb3_setId", 0));
-        intent.putExtra("q18_rb4_setId", intent_test.getIntExtra("q18_rb4_setId", 0));
-        intent.putExtra("q18_rb5_setId", intent_test.getIntExtra("q18_rb5_setId", 0));
-
-        intent.putExtra("q19_answer", intent_test.getIntExtra("q19_answer", 0));
-        intent.putExtra("q19_rb1_setId", intent_test.getIntExtra("q19_rb1_setId", 0));
-        intent.putExtra("q19_rb2_setId", intent_test.getIntExtra("q19_rb2_setId", 0));
-        intent.putExtra("q19_rb3_setId", intent_test.getIntExtra("q19_rb3_setId", 0));
-        intent.putExtra("q19_rb4_setId", intent_test.getIntExtra("q19_rb4_setId", 0));
-        intent.putExtra("q19_rb5_setId", intent_test.getIntExtra("q19_rb5_setId", 0));
-
-        intent.putExtra("q20_answer", intent_test.getIntExtra("q20_answer", 0));
-        intent.putExtra("q20_rb1_setId", intent_test.getIntExtra("q20_rb1_setId", 0));
-        intent.putExtra("q20_rb2_setId", intent_test.getIntExtra("q20_rb2_setId", 0));
-        intent.putExtra("q20_rb3_setId", intent_test.getIntExtra("q20_rb3_setId", 0));
-        intent.putExtra("q20_rb4_setId", intent_test.getIntExtra("q20_rb4_setId", 0));
-        intent.putExtra("q20_rb5_setId", intent_test.getIntExtra("q20_rb5_setId", 0));
 
         int q1_a = intent.getIntExtra("q1_answer", 0);
 
@@ -324,145 +185,7 @@ public class confusion_1 extends AppCompatActivity {
         int q20_rb5_id = intent.getIntExtra("q20_rb5_setId", 0);
 
 /**/
-        intent.putExtra("q1_answer_r", intent_test.getIntExtra("q1_answer_r", 0));
-        intent.putExtra("q1_1_setId_r", intent_test.getIntExtra("q1_1_setId_r", 0));
-        intent.putExtra("q1_2_setId_r", intent_test.getIntExtra("q1_2_setId_r", 0));
-        intent.putExtra("q1_3_setId_r", intent_test.getIntExtra("q1_3_setId_r", 0));
-        intent.putExtra("q1_4_setId_r", intent_test.getIntExtra("q1_4_setId_r", 0));
-        intent.putExtra("q1_5_setId_r", intent_test.getIntExtra("q1_5_setId_r", 0));
 
-        intent.putExtra("q2_answer_r", intent_test.getIntExtra("q2_answer_r", 0));
-        intent.putExtra("q2_rb1_setId_r", intent_test.getIntExtra("q2_rb1_setId_r", 0));
-        intent.putExtra("q2_rb2_setId_r", intent_test.getIntExtra("q2_rb2_setId_r", 0));
-        intent.putExtra("q2_rb3_setId_r", intent_test.getIntExtra("q2_rb3_setId_r", 0));
-        intent.putExtra("q2_rb4_setId_r", intent_test.getIntExtra("q2_rb4_setId_r", 0));
-        intent.putExtra("q2_rb5_setId_r", intent_test.getIntExtra("q2_rb5_setId_r", 0));
-
-        intent.putExtra("q3_answer_r", intent_test.getIntExtra("q3_answer_r", 0));
-        intent.putExtra("q3_rb1_setId_r", intent_test.getIntExtra("q3_rb1_setId_r", 0));
-        intent.putExtra("q3_rb2_setId_r", intent_test.getIntExtra("q3_rb2_setId_r", 0));
-        intent.putExtra("q3_rb3_setId_r", intent_test.getIntExtra("q3_rb3_setId_r", 0));
-        intent.putExtra("q3_rb4_setId_r", intent_test.getIntExtra("q3_rb4_setId_r", 0));
-        intent.putExtra("q3_rb5_setId_r", intent_test.getIntExtra("q3_rb5_setId_r", 0));
-
-        intent.putExtra("q4_answer_r", intent_test.getIntExtra("q4_answer_r", 0));
-        intent.putExtra("q4_rb1_setId_r", intent_test.getIntExtra("q4_rb1_setId_r", 0));
-        intent.putExtra("q4_rb2_setId_r", intent_test.getIntExtra("q4_rb2_setId_r", 0));
-        intent.putExtra("q4_rb3_setId_r", intent_test.getIntExtra("q4_rb3_setId_r", 0));
-        intent.putExtra("q4_rb4_setId_r", intent_test.getIntExtra("q4_rb4_setId_r", 0));
-        intent.putExtra("q4_rb5_setId_r", intent_test.getIntExtra("q4_rb5_setId_r", 0));
-
-        intent.putExtra("q5_answer_r", intent_test.getIntExtra("q5_answer_r", 0));
-        intent.putExtra("q5_rb1_setId_r", intent_test.getIntExtra("q5_rb1_setId_r", 0));
-        intent.putExtra("q5_rb2_setId_r", intent_test.getIntExtra("q5_rb2_setId_r", 0));
-        intent.putExtra("q5_rb3_setId_r", intent_test.getIntExtra("q5_rb3_setId_r", 0));
-        intent.putExtra("q5_rb4_setId_r", intent_test.getIntExtra("q5_rb4_setId_r", 0));
-        intent.putExtra("q5_rb5_setId_r", intent_test.getIntExtra("q5_rb5_setId_r", 0));
-
-        intent.putExtra("q6_answer_r", intent_test.getIntExtra("q6_answer_r", 0));
-        intent.putExtra("q6_rb1_setId_r", intent_test.getIntExtra("q6_rb1_setId_r", 0));
-        intent.putExtra("q6_rb2_setId_r", intent_test.getIntExtra("q6_rb2_setId_r", 0));
-        intent.putExtra("q6_rb3_setId_r", intent_test.getIntExtra("q6_rb3_setId_r", 0));
-        intent.putExtra("q6_rb4_setId_r", intent_test.getIntExtra("q6_rb4_setId_r", 0));
-        intent.putExtra("q6_rb5_setId_r", intent_test.getIntExtra("q6_rb5_setId_r", 0));
-
-        intent.putExtra("q7_answer_r", intent_test.getIntExtra("q7_answer_r", 0));
-        intent.putExtra("q7_rb1_setId_r", intent_test.getIntExtra("q7_rb1_setId_r", 0));
-        intent.putExtra("q7_rb2_setId_r", intent_test.getIntExtra("q7_rb2_setId_r", 0));
-        intent.putExtra("q7_rb3_setId_r", intent_test.getIntExtra("q7_rb3_setId_r", 0));
-        intent.putExtra("q7_rb4_setId_r", intent_test.getIntExtra("q7_rb4_setId_r", 0));
-        intent.putExtra("q7_rb5_setId_r", intent_test.getIntExtra("q7_rb5_setId_r", 0));
-
-        intent.putExtra("q8_answer_r", intent_test.getIntExtra("q8_answer_r", 0));
-        intent.putExtra("q8_rb1_setId_r", intent_test.getIntExtra("q8_rb1_setId_r", 0));
-        intent.putExtra("q8_rb2_setId_r", intent_test.getIntExtra("q8_rb2_setId_r", 0));
-        intent.putExtra("q8_rb3_setId_r", intent_test.getIntExtra("q8_rb3_setId_r", 0));
-        intent.putExtra("q8_rb4_setId_r", intent_test.getIntExtra("q8_rb4_setId_r", 0));
-        intent.putExtra("q8_rb5_setId_r", intent_test.getIntExtra("q8_rb5_setId_r", 0));
-
-        intent.putExtra("q9_answer_r", intent_test.getIntExtra("q9_answer_r", 0));
-        intent.putExtra("q9_rb1_setId_r", intent_test.getIntExtra("q9_rb1_setId_r", 0));
-        intent.putExtra("q9_rb2_setId_r", intent_test.getIntExtra("q9_rb2_setId_r", 0));
-        intent.putExtra("q9_rb3_setId_r", intent_test.getIntExtra("q9_rb3_setId_r", 0));
-        intent.putExtra("q9_rb4_setId_r", intent_test.getIntExtra("q9_rb4_setId_r", 0));
-        intent.putExtra("q9_rb5_setId_r", intent_test.getIntExtra("q9_rb5_setId_r", 0));
-
-        intent.putExtra("q10_answer_r", intent_test.getIntExtra("q10_answer_r", 0));
-        intent.putExtra("q10_rb1_setId_r", intent_test.getIntExtra("q10_rb1_setId_r", 0));
-        intent.putExtra("q10_rb2_setId_r", intent_test.getIntExtra("q10_rb2_setId_r", 0));
-        intent.putExtra("q10_rb3_setId_r", intent_test.getIntExtra("q10_rb3_setId_r", 0));
-        intent.putExtra("q10_rb4_setId_r", intent_test.getIntExtra("q10_rb4_setId_r", 0));
-        intent.putExtra("q10_rb5_setId_r", intent_test.getIntExtra("q10_rb5_setId_r", 0));
-
-        intent.putExtra("q11_answer_r", intent_test.getIntExtra("q11_answer_r", 0));
-        intent.putExtra("q11_rb1_setId_r", intent_test.getIntExtra("q11_rb1_setId_r", 0));
-        intent.putExtra("q11_rb2_setId_r", intent_test.getIntExtra("q11_rb2_setId_r", 0));
-        intent.putExtra("q11_rb3_setId_r", intent_test.getIntExtra("q11_rb3_setId_r", 0));
-        intent.putExtra("q11_rb4_setId_r", intent_test.getIntExtra("q11_rb4_setId_r", 0));
-        intent.putExtra("q11_rb5_setId_r", intent_test.getIntExtra("q11_rb5_setId_r", 0));
-
-        intent.putExtra("q12_answer_r", intent_test.getIntExtra("q12_answer_r", 0));
-        intent.putExtra("q12_rb1_setId_r", intent_test.getIntExtra("q12_rb1_setId_r", 0));
-        intent.putExtra("q12_rb2_setId_r", intent_test.getIntExtra("q12_rb2_setId_r", 0));
-        intent.putExtra("q12_rb3_setId_r", intent_test.getIntExtra("q12_rb3_setId_r", 0));
-        intent.putExtra("q12_rb4_setId_r", intent_test.getIntExtra("q12_rb4_setId_r", 0));
-        intent.putExtra("q12_rb5_setId_r", intent_test.getIntExtra("q12_rb5_setId_r", 0));
-
-        intent.putExtra("q13_answer_r", intent_test.getIntExtra("q13_answer_r", 0));
-        intent.putExtra("q13_rb1_setId_r", intent_test.getIntExtra("q13_rb1_setId_r", 0));
-        intent.putExtra("q13_rb2_setId_r", intent_test.getIntExtra("q13_rb2_setId_r", 0));
-        intent.putExtra("q13_rb3_setId_r", intent_test.getIntExtra("q13_rb3_setId_r", 0));
-        intent.putExtra("q13_rb4_setId_r", intent_test.getIntExtra("q13_rb4_setId_r", 0));
-        intent.putExtra("q13_rb5_setId_r", intent_test.getIntExtra("q13_rb5_setId_r", 0));
-
-        intent.putExtra("q14_answer_r", intent_test.getIntExtra("q14_answer_r", 0));
-        intent.putExtra("q14_rb1_setId_r", intent_test.getIntExtra("q14_rb1_setId_r", 0));
-        intent.putExtra("q14_rb2_setId_r", intent_test.getIntExtra("q14_rb2_setId_r", 0));
-        intent.putExtra("q14_rb3_setId_r", intent_test.getIntExtra("q14_rb3_setId_r", 0));
-        intent.putExtra("q14_rb4_setId_r", intent_test.getIntExtra("q14_rb4_setId_r", 0));
-        intent.putExtra("q14_rb5_setId_r", intent_test.getIntExtra("q14_rb5_setId_r", 0));
-
-        intent.putExtra("q15_answer_r", intent_test.getIntExtra("q15_answer_r", 0));
-        intent.putExtra("q15_rb1_setId_r", intent_test.getIntExtra("q15_rb1_setId_r", 0));
-        intent.putExtra("q15_rb2_setId_r", intent_test.getIntExtra("q15_rb2_setId_r", 0));
-        intent.putExtra("q15_rb3_setId_r", intent_test.getIntExtra("q15_rb3_setId_r", 0));
-        intent.putExtra("q15_rb4_setId_r", intent_test.getIntExtra("q15_rb4_setId_r", 0));
-        intent.putExtra("q15_rb5_setId_r", intent_test.getIntExtra("q15_rb5_setId_r", 0));
-
-        intent.putExtra("q16_answer_r", intent_test.getIntExtra("q16_answer_r", 0));
-        intent.putExtra("q16_rb1_setId_r", intent_test.getIntExtra("q16_rb1_setId_r", 0));
-        intent.putExtra("q16_rb2_setId_r", intent_test.getIntExtra("q16_rb2_setId_r", 0));
-        intent.putExtra("q16_rb3_setId_r", intent_test.getIntExtra("q16_rb3_setId_r", 0));
-        intent.putExtra("q16_rb4_setId_r", intent_test.getIntExtra("q16_rb4_setId_r", 0));
-        intent.putExtra("q16_rb5_setId_r", intent_test.getIntExtra("q16_rb5_setId_r", 0));
-
-        intent.putExtra("q17_answer_r", intent_test.getIntExtra("q17_answer_r", 0));
-        intent.putExtra("q17_rb1_setId_r", intent_test.getIntExtra("q17_rb1_setId_r", 0));
-        intent.putExtra("q17_rb2_setId_r", intent_test.getIntExtra("q17_rb2_setId_r", 0));
-        intent.putExtra("q17_rb3_setId_r", intent_test.getIntExtra("q17_rb3_setId_r", 0));
-        intent.putExtra("q17_rb4_setId_r", intent_test.getIntExtra("q17_rb4_setId_r", 0));
-        intent.putExtra("q17_rb5_setId_r", intent_test.getIntExtra("q17_rb5_setId_r", 0));
-
-        intent.putExtra("q18_answer_r", intent_test.getIntExtra("q18_answer_r", 0));
-        intent.putExtra("q18_rb1_setId_r", intent_test.getIntExtra("q18_rb1_setId_r", 0));
-        intent.putExtra("q18_rb2_setId_r", intent_test.getIntExtra("q18_rb2_setId_r", 0));
-        intent.putExtra("q18_rb3_setId_r", intent_test.getIntExtra("q18_rb3_setId_r", 0));
-        intent.putExtra("q18_rb4_setId_r", intent_test.getIntExtra("q18_rb4_setId_r", 0));
-        intent.putExtra("q18_rb5_setId_r", intent_test.getIntExtra("q18_rb5_setId_r", 0));
-
-        intent.putExtra("q19_answer_r", intent_test.getIntExtra("q19_answer_r", 0));
-        intent.putExtra("q19_rb1_setId_r", intent_test.getIntExtra("q19_rb1_setId_r", 0));
-        intent.putExtra("q19_rb2_setId_r", intent_test.getIntExtra("q19_rb2_setId_r", 0));
-        intent.putExtra("q19_rb3_setId_r", intent_test.getIntExtra("q19_rb3_setId_r", 0));
-        intent.putExtra("q19_rb4_setId_r", intent_test.getIntExtra("q19_rb4_setId_r", 0));
-        intent.putExtra("q19_rb5_setId_r", intent_test.getIntExtra("q19_rb5_setId_r", 0));
-
-        intent.putExtra("q20_answer_r", intent_test.getIntExtra("q20_answer_r", 0));
-        intent.putExtra("q20_rb1_setId_r", intent_test.getIntExtra("q20_rb1_setId_r", 0));
-        intent.putExtra("q20_rb2_setId_r", intent_test.getIntExtra("q20_rb2_setId_r", 0));
-        intent.putExtra("q20_rb3_setId_r", intent_test.getIntExtra("q20_rb3_setId_r", 0));
-        intent.putExtra("q20_rb4_setId_r", intent_test.getIntExtra("q20_rb4_setId_r", 0));
-        intent.putExtra("q20_rb5_setId_r", intent_test.getIntExtra("q20_rb5_setId_r", 0));
 
         int q1_ar = intent.getIntExtra("q1_answer_r", 0);
 
@@ -612,15 +335,15 @@ public class confusion_1 extends AppCompatActivity {
         if (q1_a == q1_1_rb_id) {
             TextView kai11 = (TextView) findViewById(R.id.kai11);
             kai11.setText("紅舌");
-            a1=1;
+            a1 = 1;
         }else if (q1_a == q1_2_rb_id) {
             TextView kai11 = (TextView) findViewById(R.id.kai11);
             kai11.setText("紫斑舌");
-            a1=2;
+            a1 = 2;
         }else if (q1_a == q1_3_rb_id) {
             TextView kai11 = (TextView) findViewById(R.id.kai11);
             kai11.setText("舌尖紅");
-            a1=3;
+            a1 = 3;
         }else if (q1_a == q1_4_rb_id) {
             TextView kai11 = (TextView) findViewById(R.id.kai11);
             kai11.setText("淡紅");
@@ -1067,455 +790,459 @@ public class confusion_1 extends AppCompatActivity {
 
 
         if (q1_ar == q1_1_rb_idr) {
-            TextView kai12 = (TextView) findViewById(R.id.kai12);
-            kai12.setText("紅舌");
-            a1=1;
-        }else if (q1_ar == q1_2_rb_idr) {
-            TextView kai12 = (TextView) findViewById(R.id.kai12);
-            kai12.setText("紫斑舌");
-            a1=2;
-        }else if (q1_ar == q1_3_rb_idr) {
-            TextView kai12 = (TextView) findViewById(R.id.kai12);
-            kai12.setText("舌尖紅");
-            a1=3;
-        }else if (q1_ar == q1_4_rb_idr) {
-            TextView kai12 = (TextView) findViewById(R.id.kai12);
-            kai12.setText("淡紅");
-            a1=4;
-        }else if (q1_ar == q1_5_rb_idr) {
-            TextView kai12 = (TextView) findViewById(R.id.kai12);
-            kai12.setText("淡白");
-            a1=5;
-        }
-        if (q2_ar == q2_rb1_idr) {
-            TextView kai22 = (TextView) findViewById(R.id.kai22);
-            kai22.setText("淡紅");
-            b1=4;
-        }else if (q2_ar == q2_rb2_idr) {
-            TextView kai22 = (TextView) findViewById(R.id.kai22);
-            kai22.setText("舌尖紅");
-            b1=3;
-        }else if (q2_ar == q2_rb3_idr) {
-            TextView kai22 = (TextView) findViewById(R.id.kai22);
-            kai22.setText("紫斑舌");
-            b1=2;
-        }else if (q2_ar == q2_rb4_idr) {
-            TextView kai22 = (TextView) findViewById(R.id.kai22);
-            kai22.setText("淡白");
-            b1=5;
-        }else if (q2_ar == q2_rb5_id) {
-            TextView kai22 = (TextView) findViewById(R.id.kai22);
-            kai22.setText("紅舌");
-            b1=1;
-        }
-        if (q3_ar == q3_rb1_idr) {
-            TextView kai32 = (TextView) findViewById(R.id.kai32);
-            kai32.setText("淡白");
-            c1=5;
-        }else if (q3_ar == q3_rb2_idr) {
-            TextView kai32 = (TextView) findViewById(R.id.kai32);
-            kai32.setText("紅舌");
-            c1=1;
-        }else if (q3_ar == q3_rb3_idr) {
-            TextView kai32 = (TextView) findViewById(R.id.kai32);
-            kai32.setText("淡紅");
-            c1=4;
-        }else if (q3_ar == q3_rb4_idr) {
-            TextView kai32 = (TextView) findViewById(R.id.kai32);
-            kai32.setText("紫斑舌");
-            c1=2;
-        }else if (q3_ar == q3_rb5_idr) {
-            TextView kai32 = (TextView) findViewById(R.id.kai32);
-            kai32.setText("舌尖紅");
-            c1=3;
-        }if (q4_ar == q4_rb1_idr) {
-            TextView kai42 = (TextView) findViewById(R.id.kai42);
-            kai42.setText("紅舌");
-            d1=1;
-        }else if (q4_ar == q4_rb2_idr) {
-            TextView kai42 = (TextView) findViewById(R.id.kai42);
-            kai42.setText("紫斑舌");
-            d1=2;
-        }else if (q4_ar == q4_rb3_idr) {
-            TextView kai42 = (TextView) findViewById(R.id.kai42);
-            kai42.setText("淡紅");
-            d1=4;
-        }else if (q4_ar == q4_rb4_idr) {
-            TextView kai42 = (TextView) findViewById(R.id.kai42);
-            kai42.setText("舌尖紅");
-            d1=3;
-        }else if (q4_ar == q4_rb5_idr) {
-            TextView kai42 = (TextView) findViewById(R.id.kai42);
-            kai42.setText("淡白");
-            d1=5;
-        }
-        if (q5_ar == q5_rb1_idr) {
-            TextView kai52 = (TextView) findViewById(R.id.kai52);
-            kai52.setText("紫斑舌");
-            e1=2;
-        }else if (q5_ar == q5_rb2_idr) {
-            TextView kai52 = (TextView) findViewById(R.id.kai52);
-            kai52.setText("舌尖舌");
-            e1=3;
-        }else if (q5_ar == q5_rb3_idr) {
-            TextView kai52 = (TextView) findViewById(R.id.kai52);
-            kai52.setText("紅舌");
-            e1=1;
-        }else if (q5_ar == q5_rb4_idr) {
-            TextView kai52 = (TextView) findViewById(R.id.kai52);
-            kai52.setText("淡紅");
-            e1=4;
-        }else if (q5_ar == q5_rb5_idr) {
-            TextView kai52 = (TextView) findViewById(R.id.kai52);
-            kai52.setText("淡白");
-            e1=5;
-        }
-        if (q6_ar == q6_rb1_idr) {
-            TextView kai62 = (TextView) findViewById(R.id.kai62);
-            kai62.setText("淡白");
-            f1=5;
-        }else if (q6_ar == q6_rb2_idr) {
-            TextView kai62 = (TextView) findViewById(R.id.kai62);
-            kai62.setText("淡紅");
-            f1=4;
-        }else if (q6_ar == q6_rb3_idr) {
-            TextView kai62 = (TextView) findViewById(R.id.kai62);
-            kai62.setText("紅舌");
-            f1=1;
-        }else if (q6_ar == q6_rb4_idr) {
-            TextView kai62 = (TextView) findViewById(R.id.kai62);
-            kai62.setText("紫斑舌");
-            f1=2;
-        }else if (q6_ar == q6_rb5_idr) {
-            TextView kai62 = (TextView) findViewById(R.id.kai62);
-            kai62.setText("舌尖紅");
-            f1=3;
-        }
-        if (q7_ar == q7_rb1_idr) {
-            TextView kai72 = (TextView) findViewById(R.id.kai72);
-            kai72.setText("淡紅");
-            g1=4;
-        }else if (q7_ar == q7_rb2_idr) {
-            TextView kai72 = (TextView) findViewById(R.id.kai72);
-            kai72.setText("舌尖紅");
-            g1=3;
-        }else if (q7_ar == q7_rb3_idr) {
-            TextView kai72 = (TextView) findViewById(R.id.kai72);
-            kai72.setText("淡白");
-            g1=5;
-        }else if (q7_ar == q7_rb4_idr) {
-            TextView kai72 = (TextView) findViewById(R.id.kai72);
-            kai72.setText("紅舌");
-            g1=1;
-        }else if (q7_ar == q7_rb5_idr) {
-            TextView kai72 = (TextView) findViewById(R.id.kai72);
-            kai72.setText("紫斑舌");
-            g1=2;
-        }
-        if (q8_ar == q8_rb1_idr) {
-            TextView kai82 = (TextView) findViewById(R.id.kai82);
-            kai82.setText("紅舌");
-            h1=1;
-        }else if (q8_ar == q8_rb2_idr) {
-            TextView kai82 = (TextView) findViewById(R.id.kai82);
-            kai82.setText("紫斑舌");
-            h1=2;
-        }else if (q8_ar == q8_rb3_idr) {
-            TextView kai82 = (TextView) findViewById(R.id.kai82);
-            kai82.setText("舌尖紅");
-            h1=3;
-        }else if (q8_ar == q8_rb4_idr) {
-            TextView kai82 = (TextView) findViewById(R.id.kai82);
-            kai82.setText("淡紅");
-            h1=4;
-        }else if (q8_ar == q8_rb5_idr) {
-            TextView kai82 = (TextView) findViewById(R.id.kai82);
-            kai82.setText("淡白");
-            h1=5;
-        }
-        if (q9_ar == q9_rb1_idr) {
-            TextView kai92 = (TextView) findViewById(R.id.kai92);
-            kai92.setText("舌尖紅");
-            i1=3;
-        }else if (q9_ar == q9_rb2_idr) {
-            TextView kai92 = (TextView) findViewById(R.id.kai92);
-            kai92.setText("紫斑舌");
-            i1=2;
-        }else if (q9_ar == q9_rb3_idr) {
-            TextView kai92 = (TextView) findViewById(R.id.kai92);
-            kai92.setText("淡白");
-            i1=5;
-        }else if (q9_ar == q9_rb4_idr) {
-            TextView kai92 = (TextView) findViewById(R.id.kai92);
-            kai92.setText("紅舌");
-            i1=1;
-        }else if (q9_ar == q9_rb5_idr) {
-            TextView kai92 = (TextView) findViewById(R.id.kai92);
-            kai92.setText("淡紅");
-            i1=4;
-        }
-        if (q10_ar == q10_rb1_idr) {
             TextView kai102 = (TextView) findViewById(R.id.kai102);
             kai102.setText("紅舌");
-            j1=1;
-        }else if (q10_ar == q10_rb2_idr) {
-            TextView kai102 = (TextView) findViewById(R.id.kai102);
-            kai102.setText("舌尖紅");
-            j1=3;
-        }else if (q10_ar == q10_rb4_idr) {
+            a2=1;
+        }else if (q1_ar == q1_2_rb_idr) {
             TextView kai102 = (TextView) findViewById(R.id.kai102);
             kai102.setText("紫斑舌");
-            j1=2;
-        }else if (q10_ar == q10_rb5_idr) {
+            a2=2;
+        }else if (q1_ar == q1_3_rb_idr) {
+            TextView kai102 = (TextView) findViewById(R.id.kai102);
+            kai102.setText("舌尖紅");
+            a2=3;
+        }else if (q1_ar == q1_4_rb_idr) {
+            TextView kai102 = (TextView) findViewById(R.id.kai102);
+            kai102.setText("淡紅");
+            a2=4;
+        }else if (q1_ar == q1_5_rb_idr) {
             TextView kai102 = (TextView) findViewById(R.id.kai102);
             kai102.setText("淡白");
-            j1=5;
+            a2=5;
         }
-        if (q11_ar == q11_rb1_idr) {
-            TextView kai112 = (TextView) findViewById(R.id.kai112);
-            kai112.setText("淡白");
-            k1=5;
-        }else if (q11_ar == q11_rb2_idr) {
-            TextView kai112 = (TextView) findViewById(R.id.kai112);
-            kai112.setText("紅舌");
-            k1=1;
-        }else if (q11_ar == q11_rb3_idr) {
-            TextView kai112 = (TextView) findViewById(R.id.kai112);
-            kai112.setText("舌尖紅");
-            k1=3;
-        }else if (q11_ar == q11_rb4_idr) {
-            TextView kai112 = (TextView) findViewById(R.id.kai112);
-            kai112.setText("紫斑舌");
-            k1=2;
-        }else if (q11_ar == q11_rb5_idr) {
-            TextView kai112 = (TextView) findViewById(R.id.kai112);
-            kai112.setText("淡紅");
-            k1=4;
-        }
-        if (q12_ar == q12_rb1_idr) {
-            TextView kai122 = (TextView) findViewById(R.id.kai122);
-            kai122.setText("舌尖紅");
-            l1=3;
-        }
-        if (q12_ar == q12_rb2_id) {
-            TextView kai122 = (TextView) findViewById(R.id.kai122);
-            kai122.setText("紅舌");
-            l1=1;
-        }
-        if (q12_ar == q12_rb3_idr) {
-            TextView kai122 = (TextView) findViewById(R.id.kai122);
-            kai122.setText("紫斑舌");
-            l1=2;
-        }
-        if (q12_ar == q12_rb4_idr) {
-            TextView kai122 = (TextView) findViewById(R.id.kai122);
-            kai122.setText("淡白");
-            l1=5;
-        }
-        if (q12_ar == q12_rb5_id) {
+        if (q2_ar == q2_rb1_idr) {
             TextView kai122 = (TextView) findViewById(R.id.kai122);
             kai122.setText("淡紅");
-            l1=4;
+            b2=4;
+        }else if (q2_ar == q2_rb2_idr) {
+            TextView kai122 = (TextView) findViewById(R.id.kai122);
+            kai122.setText("舌尖紅");
+            b2=3;
+        }else if (q2_ar == q2_rb3_idr) {
+            TextView kai122 = (TextView) findViewById(R.id.kai122);
+            kai122.setText("紫斑舌");
+            b2=2;
+        }else if (q2_ar == q2_rb4_idr) {
+            TextView kai122 = (TextView) findViewById(R.id.kai122);
+            kai122.setText("淡白");
+            b2=5;
+        }else if (q2_ar == q2_rb5_idr) {
+            TextView kai122 = (TextView) findViewById(R.id.kai122);
+            kai122.setText("紅舌");
+            b2=1;
         }
-        if (q13_ar == q13_rb1_idr) {
-            TextView kai132 = (TextView) findViewById(R.id.kai132);
-            kai132.setText("淡紅");
-            m1=4;
-        }
-        if (q13_ar == q13_rb2_idr) {
-            TextView kai132 = (TextView) findViewById(R.id.kai132);
-            kai132.setText("紫斑舌");
-            m1=2;
-        }
-        if (q13_ar == q13_rb3_idr) {
-            TextView kai132 = (TextView) findViewById(R.id.kai132);
-            kai132.setText("紅舌");
-            m1=1;
-        }
-        if (q13_ar == q13_rb4_idr) {
-            TextView kai132 = (TextView) findViewById(R.id.kai132);
-            kai132.setText("淡白");
-            m1=5;
-        }
-        if (q13_ar == q13_rb5_idr) {
-            TextView kai132 = (TextView) findViewById(R.id.kai132);
-            kai132.setText("舌尖紅");
-            m1=3;
-        }
-        if (q14_ar == q14_rb1_idr) {
-            TextView kai142 = (TextView) findViewById(R.id.kai142);
-            kai142.setText("紅舌");
-            n1=1;
-        }
-        if (q14_ar == q14_rb2_idr) {
-            TextView kai142 = (TextView) findViewById(R.id.kai142);
-            kai142.setText("淡白");
-            n1=5;
-        }
-        if (q14_ar == q1_3_rb_idr) {
-            TextView kai142 = (TextView) findViewById(R.id.kai142);
-            kai142.setText("紫斑舌");
-            n1=2;
-        }
-        if (q14_ar == q14_rb4_idr) {
-            TextView kai142 = (TextView) findViewById(R.id.kai142);
-            kai142.setText("舌尖紅");
-            n1=3;
-        }
-        if (q14_ar == q14_rb5_idr) {
-            TextView kai142 = (TextView) findViewById(R.id.kai142);
-            kai142.setText("淡紅");
-            n1=4;
-        }
-        if (q15_ar == q15_rb1_idr) {
-            TextView kai152 = (TextView) findViewById(R.id.kai152);
-            kai152.setText("舌尖紅");
-            o1=3;
-        }
-        if (q15_ar == q15_rb2_idr) {
-            TextView kai152 = (TextView) findViewById(R.id.kai152);
-            kai152.setText("紅舌");
-            o1=1;
-        }
-        if (q15_ar == q15_rb3_idr) {
-            TextView kai152 = (TextView) findViewById(R.id.kai152);
-            kai152.setText("淡白");
-            o1=5;
-        }
-        if (q15_ar == q15_rb4_idr) {
-            TextView kai152 = (TextView) findViewById(R.id.kai152);
-            kai152.setText("紫斑舌");
-            o1=2;
-        }
-        if (q15_ar == q15_rb5_idr) {
-            TextView kai152 = (TextView) findViewById(R.id.kai152);
-            kai152.setText("淡紅");
-            o1=4;
-        }
-        if (q16_ar == q16_rb1_idr) {
-            TextView kai162 = (TextView) findViewById(R.id.kai162);
-            kai162.setText("舌尖紅");
-            p1=3;
-        }
-        if (q16_ar == q16_rb2_idr) {
-            TextView kai162 = (TextView) findViewById(R.id.kai162);
-            kai162.setText("紫斑舌");
-            p1=2;
-        }
-        if (q16_ar == q16_rb3_idr) {
-            TextView kai162 = (TextView) findViewById(R.id.kai162);
-            kai162.setText("淡紅");
-            p1=4;
-        }
-        if (q16_ar == q16_rb4_idr) {
-            TextView kai162 = (TextView) findViewById(R.id.kai162);
-            kai162.setText("淡白");
-            p1=5;
-        }
-        if (q16_ar == q16_rb5_idr) {
-            TextView kai162 = (TextView) findViewById(R.id.kai162);
-            kai162.setText("紅舌");
-            p1=1;
-        }
-        if (q17_ar == q17_rb1_idr) {
-            TextView kai172 = (TextView) findViewById(R.id.kai172);
-            kai172.setText("淡紅");
-            q1=4;
-        }
-        if (q17_ar == q17_rb2_idr) {
-            TextView kai172 = (TextView) findViewById(R.id.kai172);
-            kai172.setText("紅舌");
-            q1=1;
-        }
-        if (q17_ar == q17_rb3_idr) {
-            TextView kai172 = (TextView) findViewById(R.id.kai172);
-            kai172.setText("舌尖紅");
-            q1=3;
-        }
-        if (q17_ar == q17_rb4_idr) {
-            TextView kai172 = (TextView) findViewById(R.id.kai172);
-            kai172.setText("淡白");
-            q1=5;
-        }
-        if (q17_ar == q17_rb5_idr) {
-            TextView kai172 = (TextView) findViewById(R.id.kai172);
-            kai172.setText("紫斑舌");
-            q1=2;
-        }
-        if (q18_ar == q18_rb1_idr) {
-            TextView kai182 = (TextView) findViewById(R.id.kai182);
-            kai182.setText("淡紅");
-            r1=4;
-        }
-        if (q18_ar == q18_rb2_idr) {
-            TextView kai182 = (TextView) findViewById(R.id.kai182);
-            kai182.setText("舌尖紅");
-            r1=3;
-        }
-        if (q18_ar == q18_rb3_idr) {
-            TextView kai182 = (TextView) findViewById(R.id.kai182);
-            kai182.setText("紫斑舌");
-            r1=2;
-        }
-        if (q18_ar == q18_rb4_idr) {
-            TextView kai182 = (TextView) findViewById(R.id.kai182);
-            kai182.setText("紅舌");
-            r1=1;
-        }
-        if (q18_ar == q18_rb5_idr) {
-            TextView kai182 = (TextView) findViewById(R.id.kai182);
-            kai182.setText("淡白");
-            r1=5;
-        }
-        if (q19_ar == q19_rb1_idr) {
-            TextView kai192 = (TextView) findViewById(R.id.kai192);
-            kai192.setText("紫斑舌");
-            s1=2;
-        }
-        if (q19_ar == q19_rb2_idr) {
-            TextView kai192 = (TextView) findViewById(R.id.kai192);
-            kai192.setText("紅舌");
-            s1=1;
-        }
-        if (q19_ar == q19_rb3_idr) {
+        if (q3_ar == q3_rb1_idr) {
             TextView kai192 = (TextView) findViewById(R.id.kai192);
             kai192.setText("淡白");
-            s1=5;
-        }
-        if (q19_ar == q19_rb4_idr) {
+            c2=5;
+        }else if (q3_ar == q3_rb2_idr) {
+            TextView kai192 = (TextView) findViewById(R.id.kai192);
+            kai192.setText("紅舌");
+            c2=1;
+        }else if (q3_ar == q3_rb3_idr) {
             TextView kai192 = (TextView) findViewById(R.id.kai192);
             kai192.setText("淡紅");
-            s1=4;
-        }
-        if (q19_ar == q19_rb5_idr) {
+            c2=4;
+        }else if (q3_ar == q3_rb4_idr) {
+            TextView kai192 = (TextView) findViewById(R.id.kai192);
+            kai192.setText("紫斑舌");
+            c2=2;
+        }else if (q3_ar == q3_rb5_idr) {
             TextView kai192 = (TextView) findViewById(R.id.kai192);
             kai192.setText("舌尖紅");
-            s1=3;
+            c2=3;
+        }if (q4_ar == q4_rb1_idr) {
+            TextView kai32 = (TextView) findViewById(R.id.kai32);
+            kai32.setText("紅舌");
+            d2=1;
+        }else if (q4_ar == q4_rb2_idr) {
+            TextView kai32 = (TextView) findViewById(R.id.kai32);
+            kai32.setText("紫斑舌");
+            d2=2;
+        }else if (q4_ar == q4_rb3_idr) {
+            TextView kai32 = (TextView) findViewById(R.id.kai32);
+            kai32.setText("淡紅");
+            d2=4;
+        }else if (q4_ar == q4_rb4_idr) {
+            TextView kai32 = (TextView) findViewById(R.id.kai32);
+            kai32.setText("舌尖紅");
+            d2=3;
+        }else if (q4_ar == q4_rb5_idr) {
+            TextView kai32 = (TextView) findViewById(R.id.kai32);
+            kai32.setText("淡白");
+            d2=5;
         }
-        if (q20_ar == q20_rb1_idr) {
+        if (q5_ar == q5_rb1_idr) {
+            TextView kai12 = (TextView) findViewById(R.id.kai12);
+            kai12.setText("紫斑舌");
+            e2=2;
+        }else if (q5_ar == q5_rb2_idr) {
+            TextView kai12 = (TextView) findViewById(R.id.kai12);
+            kai12.setText("舌尖舌");
+            e2=3;
+        }else if (q5_ar == q5_rb3_idr) {
+            TextView kai12 = (TextView) findViewById(R.id.kai12);
+            kai12.setText("紅舌");
+            e2=1;
+        }else if (q5_ar == q5_rb4_idr) {
+            TextView kai12 = (TextView) findViewById(R.id.kai12);
+            kai12.setText("淡紅");
+            e2=4;
+        }else if (q5_ar == q5_rb5_idr) {
+            TextView kai12 = (TextView) findViewById(R.id.kai12);
+            kai12.setText("淡白");
+            e2=5;
+        }
+        if (q6_ar == q6_rb1_idr) {
             TextView kai202 = (TextView) findViewById(R.id.kai202);
             kai202.setText("淡白");
-            t1=5;
-        }
-        if (q20_ar == q20_rb2_idr) {
-            TextView kai202 = (TextView) findViewById(R.id.kai202);
-            kai202.setText("紅舌");
-            t1=1;
-        }
-        if (q20_a == q20_rb3_idr) {
+            f2=5;
+        }else if (q6_ar == q6_rb2_idr) {
             TextView kai202 = (TextView) findViewById(R.id.kai202);
             kai202.setText("淡紅");
-            t1=4;
-        }
-        if (q20_ar == q20_rb4_idr) {
+            f2=4;
+        }else if (q6_ar == q6_rb3_idr) {
             TextView kai202 = (TextView) findViewById(R.id.kai202);
-            kai202.setText("舌尖紅");
-            t1=3;
-        }
-        if (q20_ar == q20_rb5_idr) {
+            kai202.setText("紅舌");
+            f2=1;
+        }else if (q6_ar == q6_rb4_idr) {
             TextView kai202 = (TextView) findViewById(R.id.kai202);
             kai202.setText("紫斑舌");
-            t1=2;
+            f2=2;
+        }else if (q6_ar == q6_rb5_idr) {
+            TextView kai202 = (TextView) findViewById(R.id.kai202);
+            kai202.setText("舌尖紅");
+            f2=3;
+        }
+        if (q7_ar == q7_rb1_idr) {
+            TextView kai142 = (TextView) findViewById(R.id.kai142);
+            kai142.setText("淡紅");
+            g2=4;
+        }else if (q7_ar == q7_rb2_idr) {
+            TextView kai142 = (TextView) findViewById(R.id.kai142);
+            kai142.setText("舌尖紅");
+            g2=3;
+        }else if (q7_ar == q7_rb3_idr) {
+            TextView kai142 = (TextView) findViewById(R.id.kai142);
+            kai142.setText("淡白");
+            g2=5;
+        }else if (q7_ar == q7_rb4_idr) {
+            TextView kai142 = (TextView) findViewById(R.id.kai142);
+            kai142.setText("紅舌");
+            g2=1;
+        }else if (q7_ar == q7_rb5_idr) {
+            TextView kai142 = (TextView) findViewById(R.id.kai142);
+            kai142.setText("紫斑舌");
+            g2=2;
+        }
+        if (q8_ar == q8_rb1_idr) {
+            TextView kai72 = (TextView) findViewById(R.id.kai72);
+            kai72.setText("紅舌");
+            h2=1;
+        }else if (q8_ar == q8_rb2_idr) {
+            TextView kai72 = (TextView) findViewById(R.id.kai72);
+            kai72.setText("紫斑舌");
+            h2=2;
+        }else if (q8_ar == q8_rb3_idr) {
+            TextView kai72 = (TextView) findViewById(R.id.kai72);
+            kai72.setText("舌尖紅");
+            h2=3;
+        }else if (q8_ar == q8_rb4_idr) {
+            TextView kai72 = (TextView) findViewById(R.id.kai72);
+            kai72.setText("淡紅");
+            h2=4;
+        }else if (q8_ar == q8_rb5_idr) {
+            TextView kai72 = (TextView) findViewById(R.id.kai72);
+            kai72.setText("淡白");
+            h2=5;
+        }
+        if (q9_ar == q9_rb1_idr) {
+            TextView kai42 = (TextView) findViewById(R.id.kai42);
+            kai42.setText("舌尖紅");
+            i2=3;
+        }else if (q9_ar == q9_rb2_idr) {
+            TextView kai42 = (TextView) findViewById(R.id.kai42);
+            kai42.setText("紫斑舌");
+            i2=2;
+        }else if (q9_ar == q9_rb3_idr) {
+            TextView kai42 = (TextView) findViewById(R.id.kai42);
+            kai42.setText("淡白");
+            i2=5;
+        }else if (q9_ar == q9_rb4_idr) {
+            TextView kai42 = (TextView) findViewById(R.id.kai42);
+            kai42.setText("紅舌");
+            i2=1;
+        }else if (q9_ar == q9_rb5_idr) {
+            TextView kai42 = (TextView) findViewById(R.id.kai42);
+            kai42.setText("淡紅");
+            i2=4;
+        }
+        if (q10_ar == q10_rb1_idr) {
+            TextView kai112 = (TextView) findViewById(R.id.kai112);
+            kai112.setText("紅舌");
+            j2=1;
+        }else if (q10_ar == q10_rb2_idr) {
+            TextView kai112 = (TextView) findViewById(R.id.kai112);
+            kai112.setText("淡紅");
+            j2=3;
+        }else if (q10_ar == q10_rb3_idr) {
+            TextView kai112 = (TextView) findViewById(R.id.kai112);
+            kai112.setText("舌尖紅");
+            j2=2;
+        }else if (q10_ar == q10_rb4_idr) {
+            TextView kai112 = (TextView) findViewById(R.id.kai112);
+            kai112.setText("紫斑舌");
+            j2=3;
+        }else if (q10_ar == q10_rb5_idr) {
+            TextView kai112 = (TextView) findViewById(R.id.kai112);
+            kai112.setText("淡白");
+            j2=5;
+        }
+        if (q11_ar == q11_rb1_idr) {
+            TextView kai22 = (TextView) findViewById(R.id.kai22);
+            kai22.setText("淡白");
+            k2=5;
+        }else if (q11_ar == q11_rb2_idr) {
+            TextView kai22 = (TextView) findViewById(R.id.kai22);
+            kai22.setText("紅舌");
+            k2=1;
+        }else if (q11_ar == q11_rb3_idr) {
+            TextView kai22 = (TextView) findViewById(R.id.kai22);
+            kai22.setText("舌尖紅");
+            k2=3;
+        }else if (q11_ar == q11_rb4_idr) {
+            TextView kai22 = (TextView) findViewById(R.id.kai22);
+            kai22.setText("紫斑舌");
+            k2=2;
+        }else if (q11_ar == q11_rb5_idr) {
+            TextView kai22 = (TextView) findViewById(R.id.kai22);
+            kai22.setText("淡紅");
+            k2=4;
+        }
+        if (q12_ar == q12_rb1_idr) {
+            TextView kai182 = (TextView) findViewById(R.id.kai182);
+            kai182.setText("舌尖紅");
+            l2=3;
+        }
+        if (q12_ar == q12_rb2_idr) {
+            TextView kai182 = (TextView) findViewById(R.id.kai182);
+            kai182.setText("紅舌");
+            l2=1;
+        }
+        if (q12_ar == q12_rb3_idr) {
+            TextView kai182 = (TextView) findViewById(R.id.kai182);
+            kai182.setText("紫斑舌");
+            l2=2;
+        }
+        if (q12_ar == q12_rb4_idr) {
+            TextView kai182 = (TextView) findViewById(R.id.kai182);
+            kai182.setText("淡白");
+            l2=5;
+        }
+        if (q12_ar == q12_rb5_idr) {
+            TextView kai182 = (TextView) findViewById(R.id.kai182);
+            kai182.setText("淡紅");
+            l2=4;
+        }
+        if (q13_ar == q13_rb1_idr) {
+            TextView kai172 = (TextView) findViewById(R.id.kai172);
+            kai172.setText("淡紅");
+            m2=4;
+        }
+        if (q13_ar == q13_rb2_idr) {
+            TextView kai172 = (TextView) findViewById(R.id.kai172);
+            kai172.setText("紫斑舌");
+            m2=2;
+        }
+        if (q13_ar == q13_rb3_idr) {
+            TextView kai172 = (TextView) findViewById(R.id.kai172);
+            kai172.setText("紅舌");
+            m2=1;
+        }
+        if (q13_ar == q13_rb4_idr) {
+            TextView kai172 = (TextView) findViewById(R.id.kai172);
+            kai172.setText("淡白");
+            m2=5;
+        }
+        if (q13_ar == q13_rb5_idr) {
+            TextView kai172 = (TextView) findViewById(R.id.kai172);
+            kai172.setText("舌尖紅");
+            m2=3;
+        }
+        if (q14_ar == q14_rb1_idr) {
+            TextView kai152 = (TextView) findViewById(R.id.kai152);
+            kai152.setText("紅舌");
+            n2=1;
+        }
+        if (q14_ar == q14_rb2_idr) {
+            TextView kai152 = (TextView) findViewById(R.id.kai152);
+            kai152.setText("淡白");
+            n2=5;
+        }
+        if (q14_ar == q14_rb3_idr) {
+            TextView kai152 = (TextView) findViewById(R.id.kai152);
+            kai152.setText("紫斑舌");
+            n2=2;
+        }
+        if (q14_ar == q14_rb4_idr) {
+            TextView kai152 = (TextView) findViewById(R.id.kai152);
+            kai152.setText("舌尖紅");
+            n2=3;
+        }
+        if (q14_ar == q14_rb5_idr) {
+            TextView kai152 = (TextView) findViewById(R.id.kai152);
+            kai152.setText("淡紅");
+            n2=4;
+        }
+        if (q15_ar == q15_rb1_idr) {
+            TextView kai52 = (TextView) findViewById(R.id.kai52);
+            kai52.setText("舌尖紅");
+            o2=3;
+        }
+        if (q15_ar == q15_rb2_idr) {
+            TextView kai52 = (TextView) findViewById(R.id.kai52);
+            kai52.setText("紅舌");
+            o2=1;
+        }
+        if (q15_ar == q15_rb3_idr) {
+            TextView kai52 = (TextView) findViewById(R.id.kai52);
+            kai52.setText("淡白");
+            o2=5;
+        }
+        if (q15_ar == q15_rb4_idr) {
+            TextView kai52 = (TextView) findViewById(R.id.kai52);
+            kai52.setText("紫斑舌");
+            o2=2;
+        }
+        if (q15_ar == q15_rb5_idr) {
+            TextView kai52 = (TextView) findViewById(R.id.kai52);
+            kai52.setText("淡紅");
+            o2=4;
+        }
+        if (q16_ar == q16_rb1_idr) {
+            TextView kai132 = (TextView) findViewById(R.id.kai132);
+            kai132.setText("舌尖紅");
+            p2=3;
+        }
+        if (q16_ar == q16_rb2_idr) {
+            TextView kai132 = (TextView) findViewById(R.id.kai132);
+            kai132.setText("紫斑舌");
+            p2=2;
+        }
+        if (q16_ar == q16_rb3_idr) {
+            TextView kai132 = (TextView) findViewById(R.id.kai132);
+            kai132.setText("淡紅");
+            p2=4;
+        }
+        if (q16_ar == q16_rb4_idr) {
+            TextView kai132 = (TextView) findViewById(R.id.kai132);
+            kai132.setText("淡白");
+            p2=5;
+        }
+        if (q16_ar == q16_rb5_idr) {
+            TextView kai132 = (TextView) findViewById(R.id.kai132);
+            kai132.setText("紅舌");
+            p2=1;
+        }
+        if (q17_ar == q17_rb1_idr) {
+            TextView kai82 = (TextView) findViewById(R.id.kai82);
+            kai82.setText("淡紅");
+            q2=4;
+        }
+        if (q17_ar == q17_rb2_idr) {
+            TextView kai82 = (TextView) findViewById(R.id.kai82);
+            kai82.setText("紅舌");
+            q2=1;
+        }
+        if (q17_ar == q17_rb3_idr) {
+            TextView kai82 = (TextView) findViewById(R.id.kai82);
+            kai82.setText("舌尖紅");
+            q2=3;
+        }
+        if (q17_ar == q17_rb4_idr) {
+            TextView kai82 = (TextView) findViewById(R.id.kai82);
+            kai82.setText("淡白");
+            q2=5;
+        }
+        if (q17_ar == q17_rb5_idr) {
+            TextView kai82 = (TextView) findViewById(R.id.kai82);
+            kai82.setText("紫斑舌");
+            q2=2;
+        }
+        if (q18_ar == q18_rb1_idr) {
+            TextView kai62 = (TextView) findViewById(R.id.kai62);
+            kai62.setText("淡紅");
+            r2=4;
+        }
+        if (q18_ar == q18_rb2_idr) {
+            TextView kai62 = (TextView) findViewById(R.id.kai62);
+            kai62.setText("舌尖紅");
+            r2=3;
+        }
+        if (q18_ar == q18_rb3_idr) {
+            TextView kai62 = (TextView) findViewById(R.id.kai62);
+            kai62.setText("紫斑舌");
+            r2=2;
+        }
+        if (q18_ar == q18_rb4_idr) {
+            TextView kai62 = (TextView) findViewById(R.id.kai62);
+            kai62.setText("紅舌");
+            r2=1;
+        }
+        if (q18_ar == q18_rb5_idr) {
+            TextView kai62 = (TextView) findViewById(R.id.kai62);
+            kai62.setText("淡白");
+            r2=5;
+        }
+        if (q19_ar == q19_rb1_idr) {
+            TextView kai92 = (TextView) findViewById(R.id.kai92);
+            kai92.setText("紫斑舌");
+            s2=2;
+        }
+        if (q19_ar == q19_rb2_idr) {
+            TextView kai92 = (TextView) findViewById(R.id.kai92);
+            kai92.setText("紅舌");
+            s2=1;
+        }
+        if (q19_ar == q19_rb3_idr) {
+            TextView kai92 = (TextView) findViewById(R.id.kai92);
+            kai92.setText("淡白");
+            s2=5;
+        }
+        if (q19_ar == q19_rb4_idr) {
+            TextView kai92 = (TextView) findViewById(R.id.kai92);
+            kai92.setText("淡紅");
+            s2=4;
+        }
+        if (q19_ar == q19_rb5_idr) {
+            TextView kai92 = (TextView) findViewById(R.id.kai92);
+            kai92.setText("舌尖紅");
+            s2=3;
+        }
+        if (q20_ar == q20_rb1_idr) {
+            TextView kai162 = (TextView) findViewById(R.id.kai162);
+            kai162.setText("淡白");
+            t2=5;
+        }
+        if (q20_ar == q20_rb2_idr) {
+            TextView kai162 = (TextView) findViewById(R.id.kai162);
+            kai162.setText("紅舌");
+            t2=1;
+        }
+        if (q20_ar == q20_rb3_idr) {
+            TextView kai162 = (TextView) findViewById(R.id.kai162);
+            kai162.setText("淡紅");
+            t2=4;
+        }
+        if (q20_ar == q20_rb4_idr) {
+            TextView kai162 = (TextView) findViewById(R.id.kai162);
+            kai162.setText("舌尖紅");
+            t2=3;
+        }
+        if (q20_ar == q20_rb5_idr) {
+            TextView kai162 = (TextView) findViewById(R.id.kai162);
+            kai162.setText("紫斑舌");
+            t2=2;
         }
 
 
@@ -1591,7 +1318,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari7 = (TextView) findViewById(R.id.ayamari7);
                 ayamari7.setText("");
             }}
-        if (q8_a != q8_rb2_id) {
+        if (q8_a != q8_rb4_id) {
             if (h1==q2) {
                 {
                     TextView ayamari8 = (TextView) findViewById(R.id.ayamari8);
@@ -1601,7 +1328,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari8 = (TextView) findViewById(R.id.ayamari8);
                 ayamari8.setText("");
             }}
-        if (q9_a != q9_rb2_id) {
+        if (q9_a != q9_rb5_id) {
             if (i1==s2) {
                 {
                     TextView ayamari9 = (TextView) findViewById(R.id.ayamari9);
@@ -1611,7 +1338,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari9 = (TextView) findViewById(R.id.ayamari9);
                 ayamari9.setText("");
             }}
-        if (q10_a != q10_rb4_id) {
+        if (q10_a != q10_rb1_id) {
             if (j1==a2) {
                 {
                     TextView ayamari10 = (TextView) findViewById(R.id.ayamari10);
@@ -1621,7 +1348,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari10 = (TextView) findViewById(R.id.ayamari10);
                 ayamari10.setText("");
             }}
-        if (q11_a != q11_rb5_id) {
+        if (q11_a != q11_rb4_id) {
             if (k1==j2) {
                 TextView ayamari11 = (TextView) findViewById(R.id.ayamari11);
                 ayamari11.setText("同じ誤り方をしています。舌の当該問題画像をしっかりと見直し、正しい知識を身につけましょう。");
@@ -1640,7 +1367,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari12 = (TextView) findViewById(R.id.ayamari12);
                 ayamari12.setText("");
             }}
-        if (q13_a != q13_rb2_id) {
+        if (q13_a != q13_rb1_id) {
             if (m1==p2) {
                 {
                     TextView ayamari13 = (TextView) findViewById(R.id.ayamari13);
@@ -1650,7 +1377,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari13 = (TextView) findViewById(R.id.ayamari13);
                 ayamari13.setText("");
             }}
-        if (q14_a != q14_rb3_id) {
+        if (q14_a != q14_rb2_id) {
             if (n1==g2) {
                 {
                     TextView ayamari14 = (TextView) findViewById(R.id.ayamari14);
@@ -1660,7 +1387,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari14 = (TextView) findViewById(R.id.ayamari14);
                 ayamari14.setText("");
             }}
-        if (q15_a != q15_rb5_id) {
+        if (q15_a != q15_rb4_id) {
             if (o1==n2) {
                 {
                     TextView ayamari15 = (TextView) findViewById(R.id.ayamari15);
@@ -1680,7 +1407,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari16 = (TextView) findViewById(R.id.ayamari16);
                 ayamari16.setText("");
             }}
-        if (q17_a != q17_rb1_id) {
+        if (q17_a != q17_rb5_id) {
             if (q1==m2) {
                 {
                     TextView ayamari17 = (TextView) findViewById(R.id.ayamari17);
@@ -1690,7 +1417,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari17 = (TextView) findViewById(R.id.ayamari17);
                 ayamari17.setText("");
             }}
-        if (q18_a != q18_rb2_id) {
+        if (q18_a != q18_rb3_id) {
             if (r1==l2) {
                 {
                     TextView ayamari18 = (TextView) findViewById(R.id.ayamari18);
@@ -1700,7 +1427,7 @@ public class confusion_1 extends AppCompatActivity {
                 TextView ayamari18 = (TextView) findViewById(R.id.ayamari18);
                 ayamari18.setText("");
             }}
-        if (q19_a != q19_rb4_id) {
+        if (q19_a != q19_rb2_id) {
             if (s1==c2) {
                 {
                     TextView ayamari19 = (TextView) findViewById(R.id.ayamari19);
